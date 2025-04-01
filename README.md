@@ -20,10 +20,57 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 ## 🔗 Connect with me across platforms
 
-- **LinkedIn**: [linkedin.com/in/michael-lorenz-battery-and-ai](https://www.linkedin.com/in/michael-lorenz-battery-and-ai)
-- **YouTube**: [@ML_and_AI](https://www.youtube.com/@ML_and_AI)
-- **Bluesky**: [ml-the-ai-engineer.bsky.social](https://bsky.app/profile/ml-the-ai-engineer.bsky.social)
-- **Substack**: [michael-lorenz.substack.com](https://michael-lorenz.substack.com)
+### 🧠 Professional & Technical Profiles
+
+- **GitHub** – AI Engineering Projects & Digital Twin Concepts  
+  [github.com/MICHAEL-L0RENZ](https://github.com/MICHAEL-L0RENZ)
+
+- **GitLab** – Machine Learning, Battery Testing & Open Infrastructure  
+  [gitlab.com/michael-lorenz](https://gitlab.com/michael-lorenz)
+
+- **Kaggle** – AI Notebooks, Benchmark Datasets & Battery Analytics  
+  [kaggle.com/michaellorenz](https://www.kaggle.com/michaellorenz)
+
+- **Google Developer Profile** – Cloud, AI, IoT & Public Code  
+  [developers.google.com/profile/u/Michael-Lorenz-Cloud-and-AI](https://developers.google.com/profile/u/Michael-Lorenz-Cloud-and-AI)
+
+- **Google Scholar** – Scientific References (coming soon)  
+  [https://scholar.google.de/Michael-Lorenz](https://scholar.google.de/citations?user=_avA-RAAAAAJ&hl=de)
+
+---
+
+### 📣 Public Presence & Social Commentary
+
+- **LinkedIn** – Strategy, AI Transformation & Battery Tech  
+  [linkedin.com/in/michael-lorenz-battery-and-ai](https://www.linkedin.com/in/michael-lorenz-battery-and-ai)
+
+- **YouTube** – AI-Generated Shorts & Strategic Tech Insight  
+  [youtube.com/@ML_and_AI](https://www.youtube.com/@ML_and_AI)
+
+- **Bluesky** – Tech Foresight, AI Culture & Systemic Thinking  
+  [ml-the-ai-engineer.bsky.social](https://bsky.app/profile/ml-the-ai-engineer.bsky.social)
+
+- **Threads** – Microcommentary on AI, Culture & Innovation  
+  [threads.net/@michael.lorenz](https://www.threads.net/@michael.lorenz)
+
+- **Reddit** – Reflections on Intelligence, Growth & Society  
+  [reddit.com/user/Michael_Lorenz_AI](https://www.reddit.com/user/Michael_Lorenz_AI)
+
+- **X (Twitter)** – Not actively used, but semantically present  
+  [x.com/Michael_Lorenz](https://x.com/Michael_Lorenz)
+
+---
+
+### 📝 Writing, Publishing & Strategic Thinking
+
+- **Substack** – Essays on Tech, Systems & Self-Transformation  
+  [michael-lorenz.substack.com](https://michael-lorenz.substack.com)
+
+- **Medium** – Deep Tech Perspectives & Cognitive Foresight  
+  [michael-lorenz.medium.com](https://michael-lorenz.medium.com)
+
+- **Quora** – Expert-Level Responses on Disruption & Intelligence  
+  [quora.com/profile/Michael-Lorenz](https://www.quora.com/profile/Michael-Lorenz-86)
 
 ---
 
