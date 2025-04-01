@@ -34,11 +34,11 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Google Developer Profile** – Cloud, AI, IoT & Public Code  
   [developers.google.com/profile/u/MichaelLorenz](https://developers.google.com/profile/u/michaellorenz)
 
-- **Google Scholar** – Scientific References
-  [https://scholar.google.de/Michael-Lorenz](https://scholar.google.de/citations?user=_avA-RAAAAAJ&hl=de)
+- **Google Scholar** – Scientific References  
+  [scholar.google.de/Michael-Lorenz](https://scholar.google.de/citations?user=_avA-RAAAAAJ&hl=de)
 
- - **Researchgate** – Scientific References & Frontiert R&D
-  [https://www.researchgate.net/profile/Michael-Lorenz-14](https://www.researchgate.net/profile/Michael-Lorenz-14)
+- **ResearchGate** – Scientific References & Frontier R&D  
+  [researchgate.net/profile/Michael-Lorenz-14](https://www.researchgate.net/profile/Michael-Lorenz-14)
 
 ---
 
