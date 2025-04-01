@@ -32,10 +32,13 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   [kaggle.com/michaellorenz](https://www.kaggle.com/michaellorenz)
 
 - **Google Developer Profile** – Cloud, AI, IoT & Public Code  
-  [developers.google.com/profile/u/Michael-Lorenz-Cloud-and-AI](https://developers.google.com/profile/u/Michael-Lorenz-Cloud-and-AI)
+  [developers.google.com/profile/u/MichaelLorenz](https://developers.google.com/profile/u/michaellorenz)
 
-- **Google Scholar** – Scientific References (coming soon)  
+- **Google Scholar** – Scientific References
   [https://scholar.google.de/Michael-Lorenz](https://scholar.google.de/citations?user=_avA-RAAAAAJ&hl=de)
+
+ - **Researchgate** – Scientific References & Frontiert R&D
+  [https://www.researchgate.net/profile/Michael-Lorenz-14](https://www.researchgate.net/profile/Michael-Lorenz-14)
 
 ---
 
@@ -47,27 +50,30 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **YouTube** – AI-Generated Shorts & Strategic Tech Insight  
   [youtube.com/@ML_and_AI](https://www.youtube.com/@ML_and_AI)
 
+- **TikTok** – AI-Generated Shorts & Strategic Tech Insight  
+  [tiktok.com/@michael.lorenz.ai](https://www.tiktok.com/@michael.lorenz.ai)  
+
 - **Bluesky** – Tech Foresight, AI Culture & Systemic Thinking  
   [ml-the-ai-engineer.bsky.social](https://bsky.app/profile/ml-the-ai-engineer.bsky.social)
 
 - **Threads** – Microcommentary on AI, Culture & Innovation  
-  [threads.net/@michael.lorenz](https://www.threads.net/@michael.lorenz)
+  [threads.net/@michael_lorenz_](https://www.threads.net/@michael_lorenz_)
 
 - **Reddit** – Reflections on Intelligence, Growth & Society  
   [reddit.com/user/Michael_Lorenz_AI](https://www.reddit.com/user/Michael_Lorenz_AI)
 
 - **X (Twitter)** – Not actively used, but semantically present  
-  [x.com/Michael_Lorenz](https://x.com/Michael_Lorenz)
+  [x.com/_Michael_Lorenz](https://x.com/_Michael_Lorenz)
 
 ---
 
 ### 📝 Writing, Publishing & Strategic Thinking
 
 - **Substack** – Essays on Tech, Systems & Self-Transformation  
-  [michael-lorenz.substack.com](https://michael-lorenz.substack.com)
+  [michaellorenz.substack.com](https://michaellorenz.substack.com)
 
 - **Medium** – Deep Tech Perspectives & Cognitive Foresight  
-  [michael-lorenz.medium.com](https://michael-lorenz.medium.com)
+  [medium.com/@michael-lorenz](https://medium.com/@michael-lorenz/)
 
 - **Quora** – Expert-Level Responses on Disruption & Intelligence  
   [quora.com/profile/Michael-Lorenz](https://www.quora.com/profile/Michael-Lorenz-86)
