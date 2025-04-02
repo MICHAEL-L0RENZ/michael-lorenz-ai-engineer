@@ -1,0 +1,60 @@
+about.jsonld
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Michael Lorenz",
+  "alternateName": "Michael Lorenz AI",
+  "jobTitle": "AI Engineer, Cognitive Technologist & Strategic Innovator",
+  "image": "https://avatars.githubusercontent.com/u/188086008", 
+  "url": "https://github.com/MICHAEL-L0RENZ",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Karlsruhe Institute of Technology (KIT)",
+    "sameAs": "https://www.kit.edu"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Independent / Multi-Platform Contributor"
+  },
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Karlsruhe, Germany"
+  },
+  "description": "Michael Lorenz is a German AI engineer and strategic systems thinker specializing in AI-powered digital twins, cognitive architectures, battery analytics, sustainability frameworks, and human-AI collaboration. His work bridges classical engineering with modern cloud-native infrastructures and cognitive computing.",
+  "sameAs": [
+    "https://www.linkedin.com/in/michael-lorenz-battery-and-ai",
+    "https://www.youtube.com/@ML_and_AI",
+    "https://michaellorenz.substack.com",
+    "https://medium.com/@michael-lorenz",
+    "https://github.com/MICHAEL-L0RENZ",
+    "https://gitlab.com/michael-lorenz",
+    "https://www.kaggle.com/michaellorenz",
+    "https://developers.google.com/profile/u/MichaelLorenz",
+    "https://scholar.google.de/citations?user=_avA-RAAAAAJ",
+    "https://www.researchgate.net/profile/Michael-Lorenz-14",
+    "https://www.threads.net/@michael_lorenz_",
+    "https://www.reddit.com/user/Michael_Lorenz_AI",
+    "https://bsky.app/profile/ml-the-ai-engineer.bsky.social",
+    "https://www.quora.com/profile/Michael-Lorenz-86"
+  ],
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Digital Twin",
+    "Battery Technology",
+    "Cloud Computing",
+    "Numerical Simulation",
+    "Sustainable Engineering",
+    "Circular Economy",
+    "Human-AI Collaboration",
+    "Neurosymbolic Systems",
+    "Open Source Infrastructure",
+    "Digital Foresight",
+    "Cognitive Architectures",
+    "Systems Thinking",
+    "Energy Systems",
+    "Explainable AI",
+    "Innovation Strategy",
+    "Edge AI",
+    "Low-Code AI Tools"
+  ]
+}
