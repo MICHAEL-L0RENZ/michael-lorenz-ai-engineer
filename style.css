@@ -1,4 +1,4 @@
-/* style.css - Vollständige Version */
+/* style.css - Vereinfachte Version */
 
 /* --- Globale Stile & Variablen --- */
 :root {
@@ -8,8 +8,8 @@
   --bg-color: #ffffff;
   --light-gray: #f8f9fa;
   --border-color: #dee2e6;
-  --heading-font: 'Poppins', sans-serif; /* Beispiel: Moderne Schrift für Überschriften */
-  --body-font: 'Lato', sans-serif; /* Beispiel: Gut lesbare Schrift für Text */
+  --heading-font: 'Poppins', sans-serif;
+  --body-font: 'Lato', sans-serif;
 }
 
 /* Import Google Fonts (Beispiel) */
@@ -22,7 +22,7 @@
 }
 
 html {
- scroll-behavior: smooth; /* Ermöglicht sanftes Scrollen bei Ankerlinks */
+ scroll-behavior: smooth;
 }
 
 
@@ -62,7 +62,7 @@ a:hover {
 }
 
 ul {
-  margin-bottom: 1em; /* Standard-Abstand für Listen */
+  margin-bottom: 1em;
 }
 
 
@@ -87,7 +87,7 @@ ul {
 .profile-picture {
   width: 150px;
   height: 150px;
-  border-radius: 50%; /* Rundes Bild */
+  border-radius: 50%;
   border: 4px solid var(--bg-color);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   margin-bottom: 15px;
@@ -103,24 +103,21 @@ ul {
 
 /* --- Main Content Sections --- */
 .profile-main {
-  flex-grow: 1; /* Sorgt dafür, dass der Footer unten bleibt */
+  flex-grow: 1;
 }
 
 /* Allgemeine Section Styling */
 .about-section,
-.experience-section,
-.skills-section,
-.projects-section,
 .connect-section,
 .faq-section {
   margin-top: 30px;
-  padding-top: 15px; /* Etwas Platz oberhalb des Section-Inhalts */
+  padding-top: 15px;
 }
-.about-section { margin-top: 0; padding-top: 0; } /* Erste Sektion braucht keinen Abstand oben */
+.about-section { margin-top: 0; padding-top: 0; }
 
 
 .about-section p:first-of-type {
-  font-size: 1.1em; /* Ersten Absatz hervorheben */
+  font-size: 1.1em;
 }
 .about-section p:last-of-type {
   font-style: italic;
@@ -128,118 +125,19 @@ ul {
   color: #6c757d;
 }
 
-/* --- Experience Section Styling --- */
-.experience-section .timeline-item {
-  position: relative; /* Für mögliche spätere Timeline-Linien */
-  padding-left: 20px; /* Platz für eine gedachte Linie */
-  margin-bottom: 25px;
-  border-left: 3px solid var(--secondary-color); /* Einfache Linie links */
-}
-.experience-section .timeline-item:last-child {
-    margin-bottom: 0; /* Kein Abstand nach dem letzten Element */
-}
-
-
-.experience-section .timeline-item h4 {
-  font-size: 1.1em;
-  margin-bottom: 0.2em;
-  color: var(--text-color);
-}
-
-.experience-section .timeline-item p { /* Für Jobtitel/Zeitraum */
-  font-size: 0.9em;
-  font-style: italic;
-  color: #6c757d;
-  margin-bottom: 0.5em;
-}
-
-.experience-section .timeline-item ul {
-  list-style-type: disc; /* Oder none, wenn keine Punkte gewünscht */
-  margin-left: 20px;
-  padding-left: 0;
-  font-size: 0.95em;
-  margin-bottom: 0; /* Kein extra Abstand unter der Liste im Item */
-}
-
-/* --- Skills Section Styling --- */
-.skills-section {
-    display: grid; /* Nutzt Grid für flexible Spalten */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive Spalten */
-    gap: 25px; /* Abstand zwischen den Kategorien */
-}
-
-.skills-category h4 {
-  font-size: 1.1em;
-  margin-bottom: 0.6em;
-  color: var(--text-color);
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 0.3em;
-}
-
-.skills-list {
-  list-style: none; /* Keine Listenpunkte */
-  padding: 0;
-  margin-bottom: 0; /* Kein extra Abstand unter der Liste */
-}
-
-.skills-list li {
-  background-color: var(--light-gray); /* Hintergrund für Skill-Tags */
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  padding: 5px 10px;
-  margin-bottom: 8px;
-  display: inline-block; /* Lässt sie wie Tags wirken */
-  margin-right: 8px;
-  font-size: 0.9em;
-  line-height: 1.4; /* Bessere Zeilenhöhe für Tags */
-}
-
-/* --- Projects Section Styling --- */
-.projects-section .project-item {
-  background-color: #fff; /* Leichter Kontrast */
-  border: 1px solid var(--border-color);
-  border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Dezenter Schatten */
-}
-.projects-section .project-item:last-child {
-    margin-bottom: 0;
-}
-
-.projects-section .project-item h4 {
-  font-size: 1.1em;
-  margin-bottom: 0.3em;
-  color: var(--text-color);
-}
-
-.projects-section .project-item p { /* Für Beschreibung */
-  font-size: 0.95em;
-  margin-bottom: 0.8em;
-}
-.projects-section .project-item p:last-child { /* Für den Link */
-  margin-bottom: 0;
-  font-size: 0.9em;
-}
-.projects-section .project-item a i { /* Icon im Link */
-  font-size: 0.8em;
-  margin-left: 4px;
-  vertical-align: middle;
-}
-
 
 /* --- Connect / Social Links --- */
 .connect-section {
   margin-top: 30px;
-  text-align: center; /* Zentriert die Links, wenn sie umbrechen */
+  text-align: center;
 }
 .social-links ul {
   list-style: none;
   padding: 0;
-  display: inline-flex; /* Ordnet Icons nebeneinander an, zentriert im Block */
-  flex-wrap: wrap; /* Umbruch bei vielen Icons */
-  gap: 15px; /* Abstand zwischen Icons */
-  justify-content: center; /* Zentriert die Icons bei Umbruch */
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
   margin-bottom: 0;
 }
 
@@ -248,16 +146,16 @@ ul {
 }
 
 .social-links a {
-  font-size: 1.8rem; /* Größe der Icons */
+  font-size: 1.8rem;
   color: var(--text-color);
   transition: color 0.2s ease, transform 0.2s ease;
-  display: inline-block; /* Für Transform */
+  display: inline-block;
 }
 
 .social-links a:hover {
   color: var(--primary-color);
   text-decoration: none;
-  transform: scale(1.1); /* Leichter Zoom-Effekt */
+  transform: scale(1.1);
 }
 
 /* --- FAQ Section Styling --- */
@@ -279,7 +177,7 @@ details:last-of-type {
 summary {
   font-weight: 700;
   cursor: pointer;
-  outline: none; /* Standard-Outline entfernen */
+  outline: none;
   color: var(--primary-color);
   transition: color 0.2s;
 }
@@ -294,7 +192,7 @@ details[open] summary {
 details p {
   padding-left: 10px;
   border-left: 3px solid var(--secondary-color);
-  margin-bottom: 0; /* P-Margin innerhalb details entfernen */
+  margin-bottom: 0;
   font-size: 0.95em;
 }
 
@@ -315,9 +213,6 @@ details p {
   h2 { font-size: 1.3rem; }
   .profile-picture { width: 120px; height: 120px; }
   .profile-header, .profile-main, .profile-footer { padding: 15px; }
-  .skills-section {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Kleinere Mindestbreite für Skills */
-  }
 }
 
 @media (max-width: 480px) {
@@ -325,12 +220,5 @@ details p {
   h2 { font-size: 1.2rem; }
   .profile-picture { width: 100px; height: 100px; }
   .social-links a { font-size: 1.6rem; }
-  .social-links ul { gap: 12px; } /* Etwas weniger Abstand bei Icons */
-  .skills-section {
-      grid-template-columns: 1fr; /* Skills untereinander auf sehr kleinen Screens */
-      gap: 15px;
-  }
-  .experience-section .timeline-item { padding-left: 15px; border-left-width: 2px;}
-  .experience-section .timeline-item ul { margin-left: 15px; }
-
+  .social-links ul { gap: 12px; }
 }
