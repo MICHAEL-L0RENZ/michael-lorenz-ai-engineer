@@ -1,4 +1,4 @@
-/* style.css */
+/* style.css - Vollständige Version */
 
 /* --- Globale Stile & Variablen --- */
 :root {
@@ -20,6 +20,11 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+ scroll-behavior: smooth; /* Ermöglicht sanftes Scrollen bei Ankerlinks */
+}
+
 
 body {
   font-family: var(--body-font);
@@ -55,6 +60,11 @@ a:hover {
   color: var(--primary-color);
   text-decoration: underline;
 }
+
+ul {
+  margin-bottom: 1em; /* Standard-Abstand für Listen */
+}
+
 
 /* --- Layout Container --- */
 .profile-header, .profile-main, .profile-footer {
@@ -96,6 +106,19 @@ a:hover {
   flex-grow: 1; /* Sorgt dafür, dass der Footer unten bleibt */
 }
 
+/* Allgemeine Section Styling */
+.about-section,
+.experience-section,
+.skills-section,
+.projects-section,
+.connect-section,
+.faq-section {
+  margin-top: 30px;
+  padding-top: 15px; /* Etwas Platz oberhalb des Section-Inhalts */
+}
+.about-section { margin-top: 0; padding-top: 0; } /* Erste Sektion braucht keinen Abstand oben */
+
+
 .about-section p:first-of-type {
   font-size: 1.1em; /* Ersten Absatz hervorheben */
 }
@@ -105,17 +128,119 @@ a:hover {
   color: #6c757d;
 }
 
+/* --- Experience Section Styling --- */
+.experience-section .timeline-item {
+  position: relative; /* Für mögliche spätere Timeline-Linien */
+  padding-left: 20px; /* Platz für eine gedachte Linie */
+  margin-bottom: 25px;
+  border-left: 3px solid var(--secondary-color); /* Einfache Linie links */
+}
+.experience-section .timeline-item:last-child {
+    margin-bottom: 0; /* Kein Abstand nach dem letzten Element */
+}
+
+
+.experience-section .timeline-item h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+  color: var(--text-color);
+}
+
+.experience-section .timeline-item p { /* Für Jobtitel/Zeitraum */
+  font-size: 0.9em;
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 0.5em;
+}
+
+.experience-section .timeline-item ul {
+  list-style-type: disc; /* Oder none, wenn keine Punkte gewünscht */
+  margin-left: 20px;
+  padding-left: 0;
+  font-size: 0.95em;
+  margin-bottom: 0; /* Kein extra Abstand unter der Liste im Item */
+}
+
+/* --- Skills Section Styling --- */
+.skills-section {
+    display: grid; /* Nutzt Grid für flexible Spalten */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive Spalten */
+    gap: 25px; /* Abstand zwischen den Kategorien */
+}
+
+.skills-category h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.6em;
+  color: var(--text-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+.skills-list {
+  list-style: none; /* Keine Listenpunkte */
+  padding: 0;
+  margin-bottom: 0; /* Kein extra Abstand unter der Liste */
+}
+
+.skills-list li {
+  background-color: var(--light-gray); /* Hintergrund für Skill-Tags */
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  display: inline-block; /* Lässt sie wie Tags wirken */
+  margin-right: 8px;
+  font-size: 0.9em;
+  line-height: 1.4; /* Bessere Zeilenhöhe für Tags */
+}
+
+/* --- Projects Section Styling --- */
+.projects-section .project-item {
+  background-color: #fff; /* Leichter Kontrast */
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Dezenter Schatten */
+}
+.projects-section .project-item:last-child {
+    margin-bottom: 0;
+}
+
+.projects-section .project-item h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+  color: var(--text-color);
+}
+
+.projects-section .project-item p { /* Für Beschreibung */
+  font-size: 0.95em;
+  margin-bottom: 0.8em;
+}
+.projects-section .project-item p:last-child { /* Für den Link */
+  margin-bottom: 0;
+  font-size: 0.9em;
+}
+.projects-section .project-item a i { /* Icon im Link */
+  font-size: 0.8em;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+
 /* --- Connect / Social Links --- */
 .connect-section {
   margin-top: 30px;
+  text-align: center; /* Zentriert die Links, wenn sie umbrechen */
 }
 .social-links ul {
   list-style: none;
   padding: 0;
-  display: flex; /* Ordnet Icons nebeneinander an */
+  display: inline-flex; /* Ordnet Icons nebeneinander an, zentriert im Block */
   flex-wrap: wrap; /* Umbruch bei vielen Icons */
   gap: 15px; /* Abstand zwischen Icons */
   justify-content: center; /* Zentriert die Icons bei Umbruch */
+  margin-bottom: 0;
 }
 
 .social-links li {
@@ -135,7 +260,7 @@ a:hover {
   transform: scale(1.1); /* Leichter Zoom-Effekt */
 }
 
-/* --- FAQ Section --- */
+/* --- FAQ Section Styling --- */
 .faq-section {
   margin-top: 30px;
 }
@@ -147,12 +272,19 @@ details {
   margin-bottom: 10px;
   padding: 10px 15px;
 }
+details:last-of-type {
+    margin-bottom: 0;
+}
 
 summary {
   font-weight: 700;
   cursor: pointer;
   outline: none; /* Standard-Outline entfernen */
   color: var(--primary-color);
+  transition: color 0.2s;
+}
+summary:hover {
+    color: var(--secondary-color);
 }
 
 details[open] summary {
@@ -163,6 +295,7 @@ details p {
   padding-left: 10px;
   border-left: 3px solid var(--secondary-color);
   margin-bottom: 0; /* P-Margin innerhalb details entfernen */
+  font-size: 0.95em;
 }
 
 /* --- Footer --- */
@@ -182,6 +315,9 @@ details p {
   h2 { font-size: 1.3rem; }
   .profile-picture { width: 120px; height: 120px; }
   .profile-header, .profile-main, .profile-footer { padding: 15px; }
+  .skills-section {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Kleinere Mindestbreite für Skills */
+  }
 }
 
 @media (max-width: 480px) {
@@ -189,5 +325,12 @@ details p {
   h2 { font-size: 1.2rem; }
   .profile-picture { width: 100px; height: 100px; }
   .social-links a { font-size: 1.6rem; }
-  .social-links ul { gap: 10px; }
+  .social-links ul { gap: 12px; } /* Etwas weniger Abstand bei Icons */
+  .skills-section {
+      grid-template-columns: 1fr; /* Skills untereinander auf sehr kleinen Screens */
+      gap: 15px;
+  }
+  .experience-section .timeline-item { padding-left: 15px; border-left-width: 2px;}
+  .experience-section .timeline-item ul { margin-left: 15px; }
+
 }
