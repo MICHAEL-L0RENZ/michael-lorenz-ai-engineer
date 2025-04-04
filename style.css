@@ -1,0 +1,193 @@
+/* style.css */
+
+/* --- Globale Stile & Variablen --- */
+:root {
+  --primary-color: #0056b3; /* Ein professionelles Blau */
+  --secondary-color: #007bff; /* Helleres Blau für Akzente/Links */
+  --text-color: #333;
+  --bg-color: #ffffff;
+  --light-gray: #f8f9fa;
+  --border-color: #dee2e6;
+  --heading-font: 'Poppins', sans-serif; /* Beispiel: Moderne Schrift für Überschriften */
+  --body-font: 'Lato', sans-serif; /* Beispiel: Gut lesbare Schrift für Text */
+}
+
+/* Import Google Fonts (Beispiel) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  line-height: 1.7;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  margin-bottom: 0.75em;
+}
+
+h1 { font-size: 2.5rem; margin-bottom: 0.25em; }
+h2 { font-size: 1.5rem; color: var(--primary-color); margin-bottom: 0.5em; font-weight: 500; }
+h3 { font-size: 1.25rem; border-bottom: 2px solid var(--light-gray); padding-bottom: 0.4em; margin-bottom: 1em; color: var(--primary-color); }
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* --- Layout Container --- */
+.profile-header, .profile-main, .profile-footer {
+  width: 100%;
+  max-width: 900px; /* Maximale Breite */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* --- Header --- */
+.profile-header {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 30px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Rundes Bild */
+  border: 4px solid var(--bg-color);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+.location {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+.location i {
+  margin-right: 5px;
+}
+
+/* --- Main Content Sections --- */
+.profile-main {
+  flex-grow: 1; /* Sorgt dafür, dass der Footer unten bleibt */
+}
+
+.about-section p:first-of-type {
+  font-size: 1.1em; /* Ersten Absatz hervorheben */
+}
+.about-section p:last-of-type {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+/* --- Connect / Social Links --- */
+.connect-section {
+  margin-top: 30px;
+}
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Ordnet Icons nebeneinander an */
+  flex-wrap: wrap; /* Umbruch bei vielen Icons */
+  gap: 15px; /* Abstand zwischen Icons */
+  justify-content: center; /* Zentriert die Icons bei Umbruch */
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  font-size: 1.8rem; /* Größe der Icons */
+  color: var(--text-color);
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block; /* Für Transform */
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+  transform: scale(1.1); /* Leichter Zoom-Effekt */
+}
+
+/* --- FAQ Section --- */
+.faq-section {
+  margin-top: 30px;
+}
+
+details {
+  background-color: var(--light-gray);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+}
+
+summary {
+  font-weight: 700;
+  cursor: pointer;
+  outline: none; /* Standard-Outline entfernen */
+  color: var(--primary-color);
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
+
+details p {
+  padding-left: 10px;
+  border-left: 3px solid var(--secondary-color);
+  margin-bottom: 0; /* P-Margin innerhalb details entfernen */
+}
+
+/* --- Footer --- */
+.profile-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.85em;
+  color: #6c757d;
+}
+
+/* --- Responsivität --- */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.3rem; }
+  .profile-picture { width: 120px; height: 120px; }
+  .profile-header, .profile-main, .profile-footer { padding: 15px; }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.2rem; }
+  .profile-picture { width: 100px; height: 100px; }
+  .social-links a { font-size: 1.6rem; }
+  .social-links ul { gap: 10px; }
+}
