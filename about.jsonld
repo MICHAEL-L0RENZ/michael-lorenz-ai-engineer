@@ -1,60 +1,124 @@
-about.jsonld
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://github.com/MICHAEL-L0RENZ#person", // Eindeutige ID bezogen auf das GitHub-Profil
   "name": "Michael Lorenz",
   "alternateName": "Michael Lorenz AI",
-  "jobTitle": "AI Engineer, Cognitive Technologist & Strategic Innovator",
-  "image": "https://avatars.githubusercontent.com/u/188086008", 
-  "url": "https://github.com/MICHAEL-L0RENZ",
-  "alumniOf": {
-    "@type": "CollegeOrUniversity",
-    "name": "Karlsruhe Institute of Technology (KIT)",
-    "sameAs": "https://www.kit.edu"
-  },
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Independent / Multi-Platform Contributor"
+  "honorificSuffix": "Dipl.-Ing.",
+  "jobTitle": "AI Engineer, Cognitive Technologist & Strategic Innovator", // Oder der spezifischere LinkedIn-Titel
+  "image": "https://avatars.githubusercontent.com/u/188086008",
+  "url": "https://github.com/MICHAEL-L0RENZ", // Verweist auf das GitHub-Profil
+  "description": "AI Engineer and Cognitive Technologist based in Karlsruhe, Germany, with over a decade of expertise in computational engineering and digital transformation. Focus areas include AI-powered Digital Twins, Battery Testing & Simulation, Cloud Computing (GCP, Azure, AWS), Generative AI, and sustainable system innovation. Passionate about leveraging technology for societal benefit, fostering sustainable practices, continuous learning, and exploring the intersection of technology, cognitive science, and societal development. Demonstrated resilience and creative problem-solving in dynamic environments.",
+  "nationality": {
+    "@type": "Country",
+    "name": "Germany"
   },
   "homeLocation": {
     "@type": "Place",
     "name": "Karlsruhe, Germany"
   },
-  "description": "Michael Lorenz is a German AI engineer and strategic systems thinker specializing in AI-powered digital twins, cognitive architectures, battery analytics, sustainability frameworks, and human-AI collaboration. His work bridges classical engineering with modern cloud-native infrastructures and cognitive computing.",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Karlsruhe Institute of Technology (KIT)",
+    "sameAs": "https://www.kit.edu"
+  },
+  "educationalCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Master degree",
+      "name": "Master of Science equivalent in Energy & Environment Technology",
+      "alternateName": "Diplom-Ingenieur (Dipl.-Ing.)",
+      "educationalLevel": "MasterDegree",
+       "about": {
+         "@type": "Thing",
+         "name": "Mechanical Engineering - Energy & Environment Technology"
+      },
+      "credentialEarned": {
+         "@type": "CollegeOrUniversity",
+         "name": "Karlsruhe Institute of Technology (KIT)",
+         "sameAs": "https://www.kit.edu"
+      }
+   },
+  "worksFor": { // Hier könnte die aktuelle Anstellung stehen, wenn gewünscht
+    "@type": "Organization",
+    "name": "APL GmbH",
+    "jobTitle": "Project Engineer - Battery Testing & AI" // Aktueller Titel bei APL
+  },
+  "award": "Invited participant in the LinkedIn Community Top Voices program",
+  "hasCredential": [
+     {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Cloud Digital Leader Learning Path",
+        "credentialCategory": "Learning Path Completion",
+        "offeredBy": {
+            "@type": "Organization",
+            "name": "Google Cloud Skills Boost"
+        }
+     },
+     {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Thinking and acting entrepreneurially",
+        "credentialCategory": "Certification",
+         "url": "URL_ZUM_CREDENTIAL_FALLS_VERFUEGBAR",
+        "offeredBy": {
+            "@type": "Organization",
+            "name": "Google"
+        }
+     }
+     // Weitere hinzufügen...
+  ],
+  "knowsLanguage": [
+    { "@type": "Language", "name": "German", "alternateName": "de" },
+    { "@type": "Language", "name": "English", "alternateName": "en" },
+    { "@type": "Language", "name": "Chinese", "description": "Elementary proficiency" }
+  ],
+  "knowsAbout": [
+      // Core AI/ML/Cloud
+      "Artificial Intelligence (AI)", "Generative AI", "Large Language Models (LLM)", "Prompt Engineering", "Machine Learning (ML)", "MLOps", "Anthropic Claude", "OpenAI ChatGPT", "Mistral AI", "Meta Llama", "Google Gemini",
+      "Cloud Computing", "Google Cloud Platform (GCP)", "Microsoft Azure", "Amazon Web Services (AWS)", "Vertex AI", "Microsoft Copilot", "Colab", "Cloud Architecture",
+      // Engineering & Simulation
+      "Battery Testing", "Battery Simulation", "High-Voltage Storage", "Electric Mobility",
+      "Digital Twin", "Computational Fluid Dynamics (CFD)", "Numerical Simulation", "Finite Element Analysis (FEA)", "Multi Body Simulation (MBS)",
+      "Thermodynamics", "Fluid Mechanics", "Tribology",
+      // Software & Tools
+      "Python (Programming Language)", "Java", "MATLAB", "Simulink", "VBA", "Linux",
+      "ANSYS", "Star-CCM+", "OpenFOAM", "CATIA", "PTC Creo", "Vector CANape", "CANoe",
+      // Data & Management
+      "Data Analytics", "Data Management", "Big Data", "Project Management",
+      // Broader Concepts & Skills
+      "Research and Development (R&D)", "Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Science",
+      "Digital Transformation", "Sustainable Technology", "Green Tech", "Systems Thinking", "Cognitive Systems",
+      "High Performance Computing (HPC)", "Cluster Computing", "Computer-Aided Engineering (CAE)", "Computer-Aided Design (CAD)",
+      "Growth Mindset", "Entrepreneurial Thinking", "Lifelong Learning", "Antifragility Concepts",
+      // Digital Presence & Communication
+      "Content Creation", "Digital Content Strategy", "Social Media Marketing", "Search Engine Optimization (SEO)",
+      "Digital Identity Management", "Online Presence Management", "Personal Knowledge Management", "Technical Writing", "Personal Branding",
+      // Interdisciplinary & Future Focus
+      "Cross-Disciplinary Synthesis", "Cognitive Science", "Psychology of Technology", "Future Studies", "Technology Foresight", "AI Ethics", "Responsible AI",
+      // DevOps/SRE
+      "DevOps", "Site Reliability Engineering (SRE)"
+  ],
   "sameAs": [
     "https://www.linkedin.com/in/michael-lorenz-battery-and-ai",
-    "https://www.youtube.com/@ML_and_AI",
+    "https://github.com/MICHAEL-L0RENZ", // Selbst-Referenz
+    "https://michael-l0renz.github.io/michael-lorenz-ai-engineer/", // Link zur Page
+    "https://www.x.com/_Michael_Lorenz",
+    "https://scholar.google.de/citations?hl=de&user=_avA-RAAAAAJ",
+    "https://www.researchgate.net/profile/Michael-Lorenz-14",
+    "https://huggingface.co/ML-The-AI-Engineer",
+    "https://stackoverflow.com/users/30133682/michael-lorenz",
     "https://michaellorenz.substack.com",
     "https://medium.com/@michael-lorenz",
-    "https://github.com/MICHAEL-L0RENZ",
-    "https://gitlab.com/michael-lorenz",
-    "https://www.kaggle.com/michaellorenz",
-    "https://developers.google.com/profile/u/MichaelLorenz",
-    "https://scholar.google.de/citations?user=_avA-RAAAAAJ",
-    "https://www.researchgate.net/profile/Michael-Lorenz-14",
+    "https://gitlab.com/MichaelLorenz",
+    "https://www.kaggle.com/mltheaiengineer",
+    "https://www.xing.com/profile/Michael_Lorenz78",
+    "https://developers.google.com/profile/u/michaellorenz",
     "https://www.threads.net/@michael_lorenz_",
     "https://www.reddit.com/user/Michael_Lorenz_AI",
     "https://bsky.app/profile/ml-the-ai-engineer.bsky.social",
-    "https://www.quora.com/profile/Michael-Lorenz-86"
-  ],
-  "knowsAbout": [
-    "Artificial Intelligence",
-    "Digital Twin",
-    "Battery Technology",
-    "Cloud Computing",
-    "Numerical Simulation",
-    "Sustainable Engineering",
-    "Circular Economy",
-    "Human-AI Collaboration",
-    "Neurosymbolic Systems",
-    "Open Source Infrastructure",
-    "Digital Foresight",
-    "Cognitive Architectures",
-    "Systems Thinking",
-    "Energy Systems",
-    "Explainable AI",
-    "Innovation Strategy",
-    "Edge AI",
-    "Low-Code AI Tools"
+    "https://www.credly.com/users/michaellorenz",
+    "https://mastodon.social/@MichaelLorenz@mastodon.social",
+    "https://learn.microsoft.com/de-de/users/artificial-intelligence",
+    "https://soundcloud.com/michael-lorenz-ai/"
+    // Ggf. weitere relevante Profile hinzufügen
   ]
 }
