@@ -29,7 +29,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   [gitlab.com/michael-lorenz](https://gitlab.com/michael-lorenz)
 
 - **Kaggle** – AI Notebooks, Benchmark Datasets & Battery Analytics  
-  [kaggle.com/michaellorenz](https://www.kaggle.com/michaellorenz)
+  [kaggle.com/mltheaiengineer](https://www.kaggle.com/mltheaiengineer)
 
 - **Google Developer Profile** – Cloud, AI, IoT & Public Code  
   [developers.google.com/profile/u/MichaelLorenz](https://developers.google.com/profile/u/michaellorenz)
@@ -39,6 +39,9 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 - **ResearchGate** – Scientific References & Frontier R&D  
   [researchgate.net/profile/Michael-Lorenz-14](https://www.researchgate.net/profile/Michael-Lorenz-14)
+
+- **Stack Overflow** – Developer Q&A and Knowledge Sharing  
+  [stackoverflow.com/users/30133682/michael-lorenz](https://stackoverflow.com/users/30133682/michael-lorenz)
 
 ---
 
@@ -53,8 +56,11 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **TikTok** – AI-Generated Shorts & Strategic Tech Insight  
   [tiktok.com/@michael.lorenz.ai](https://www.tiktok.com/@michael.lorenz.ai)  
 
-- **Bluesky** – Tech Foresight, AI Culture & Systemic Thinking  
+- **Bluesky (Professional)** – Tech Foresight, AI Culture & Systemic Thinking  
   [ml-the-ai-engineer.bsky.social](https://bsky.app/profile/ml-the-ai-engineer.bsky.social)
+
+- **Bluesky (Personal)** – Reflexionen, Mensch-Technik-Interaktion & Wandel  
+  [michael-lorenz.bsky.social](https://www.bsky.app/profile/michael-lorenz.bsky.social)
 
 - **Threads** – Microcommentary on AI, Culture & Innovation  
   [threads.net/@michael_lorenz_](https://www.threads.net/@michael_lorenz_)
@@ -62,8 +68,27 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Reddit** – Reflections on Intelligence, Growth & Society  
   [reddit.com/user/Michael_Lorenz_AI](https://www.reddit.com/user/Michael_Lorenz_AI)
 
+- **Mastodon** – Tech Discourse & Decentralized Ideas  
+  [mastodon.social/@MichaelLorenz](https://mastodon.social/@MichaelLorenz@mastodon.social)
+
 - **X (Twitter)** – Not actively used, but semantically present  
   [x.com/_Michael_Lorenz](https://x.com/_Michael_Lorenz)
+
+---
+
+### 🧠 AI Tools & Strategic GPTs
+
+- **GenAI, Digital Twin & IoT GPT** – Exploratory AI Architectures & Scenarios  
+  [chatgpt.com/g/g-67847826734081918648116dfa8f8fa9](https://chatgpt.com/g/g-67847826734081918648116dfa8f8fa9)
+
+- **Digital Leadership AI-Coach** – Strategy, Change & Innovation Coaching  
+  [chatgpt.com/g/g-6756044be0c481919498df3cbee65aa1](https://chatgpt.com/g/g-6756044be0c481919498df3cbee65aa1)
+
+- **AI Learning Journey Coach** – Tailored Guidance for AI Learners  
+  [chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34](https://chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34)
+
+- **Claude-based Leadership Assessment** – AI-assisted self-evaluation  
+  [claude.site](https://claude.site/artifacts/f5b4d943-399b-4eb8-8f7d-49a128a53b37)
 
 ---
 
