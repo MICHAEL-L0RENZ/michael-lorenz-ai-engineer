@@ -4,11 +4,11 @@
   "@id": "https://github.com/MICHAEL-L0RENZ#person",
   "name": "Michael Lorenz",
   "alternateName": "Michael Lorenz AI",
-  "honorificSuffix": "Dipl.-Ing.",
+  "honorificSuffix": ["Dipl.-Ing.", "M.Sc."], {# M.Sc. hinzugefügt #}
   "jobTitle": "AI Engineer, Cognitive Technologist & Strategic Innovator",
   "image": "https://avatars.githubusercontent.com/u/188086008",
   "url": "https://github.com/MICHAEL-L0RENZ",
-  "description": "AI Engineer and Cognitive Technologist based in Karlsruhe, Germany, with over a decade of expertise in computational engineering and digital transformation. Focus areas include AI-powered Digital Twins, Battery Testing & Simulation, Cloud Computing (GCP, Azure, AWS), Generative AI, and sustainable system innovation. Passionate about leveraging technology for societal benefit, fostering sustainable practices, continuous learning, and exploring the intersection of technology, cognitive science, and societal development. Demonstrated resilience and creative problem-solving in dynamic environments.",
+  "description": "Michael Lorenz, M.Sc. Energy & Environment Technology (KIT), is an AI Engineer and Cognitive Technologist based in Karlsruhe, Germany. With over a decade of expertise in computational engineering and digital transformation, his focus areas include AI-powered Digital Twins, Battery Testing & Simulation, Cloud Computing (GCP, Azure, AWS), Generative AI, and sustainable system innovation. Passionate about leveraging technology for societal benefit, fostering sustainable practices, continuous learning, and exploring the intersection of technology, cognitive science, and societal development, he demonstrates resilience and creative problem-solving in dynamic environments.", {# Beschreibung angepasst und Abschluss integriert #}
   "nationality": {
     "@type": "Country",
     "name": "Germany"
