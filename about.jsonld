@@ -58,9 +58,59 @@
       },
       {
          "@type": "EducationalOccupationalCredential",
-         "name": "Thinking and acting entrepreneurially",
+         "name": "Gemini for Google Workspace Learning Path",
+         "credentialCategory": "Learning Path Completion",
+         "offeredBy": {
+             "@type": "Organization",
+             "name": "Google Cloud Skills Boost"
+         },
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa"
+      },
+     {
+         "@type": "EducationalOccupationalCredential",
+         "name": "Beginner: Introduction to Generative AI Learning Path",
+         "credentialCategory": "Learning Path Completion",
+         "offeredBy": {
+             "@type": "Organization",
+             "name": "Google Cloud Skills Boost"
+         },
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa"
+      },
+      {
+         "@type": "EducationalOccupationalCredential",
+         "name": "Google Cloud Next 2024 Learning Path",
+         "credentialCategory": "Learning Path Completion",
+         "offeredBy": {
+             "@type": "Organization",
+             "name": "Google Cloud Skills Boost"
+         },
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa"
+      },
+      {
+         "@type": "EducationalOccupationalCredential",
+         "name": "Introduction to Generative AI",
          "credentialCategory": "Certification",
-         "url": "URL_ZUM_CREDENTIAL_FALLS_VERFUEGBAR",
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa/badges/8232687",
+         "offeredBy": {
+             "@type": "Organization",
+             "name": "Google"
+         }
+      },
+      {
+         "@type": "EducationalOccupationalCredential",
+         "name": "Introduction to Large Language Models",
+         "credentialCategory": "Certification",
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa/badges/8232928",
+         "offeredBy": {
+             "@type": "Organization",
+             "name": "Google"
+         }
+      },
+      {
+         "@type": "EducationalOccupationalCredential",
+         "name": "Introduction to Generative AI",
+         "credentialCategory": "Certification",
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa/badges/8232687",
          "offeredBy": {
              "@type": "Organization",
              "name": "Google"
