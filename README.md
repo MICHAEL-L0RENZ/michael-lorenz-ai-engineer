@@ -1,4 +1,5 @@
-# Michael Lorenz, M.Sc. Energy & Environment Technology (KIT) – AI Engineer, Cognitive Technologist & Strategic Innovator
+# Michael Lorenz, M.Sc. Energy & Environment Technology (KIT)
+# AI Engineer, Cognitive Technologist & Strategic Innovator
 
 Welcome to the official GitHub profile of **Michael Lorenz**, M.Sc. Energy & Environment Technology (KIT), an engineer and technologist with a strong focus on artificial intelligence, battery technology, digital twin infrastructure, and cognitive system design.
 
@@ -84,7 +85,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 - **Substack** – Newsletter & Articles
   https://michaellorenz.substack.com
-- **Substack** – Google Cloud Skills Boost Profile 
+- **Substack** – Google Cloud Skills Boost Profile
   https://googlecloudskillsboost.substack.com/
 - **Medium** – Articles & Insights
   https://medium.com/@michael-lorenz/
