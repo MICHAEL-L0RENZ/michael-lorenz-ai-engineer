@@ -28,6 +28,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://gitlab.com/MichaelLorenz / https://michael-lorenz.gitlab.io/
 - **Kaggle** - AI Notebooks, Benchmark Datasets & Battery Analytics  
   https://www.kaggle.com/mltheaiengineer
+- **Hugging Face** – AI Models, Datasets & Spaces  
+  https://huggingface.co/ML-The-AI-Engineer
 - **Google Developer Profile** - Cloud, AI, IoT & Public Code  
   https://developers.google.com/profile/u/michaellorenz
 - **Google Cloud Skills Boost** - Hands?on Labs & Skill Badges  
@@ -71,8 +73,21 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.tiktok.com/@michael.lorenz.ai
 - **Reddit** - Discussions on Intelligence & Growth  
   https://www.reddit.com/user/Michael_Lorenz_AI/
+- **Quora** – Q&A and Knowledge Sharing  
+  https://www.quora.com/profile/Michael-Lorenz-86
 - **Xing** - Secondary Professional Presence  
   https://www.xing.com/profile/Michael_Lorenz78
+
+### 📝 Writing & Publications
+
+- **Substack** – Newsletter & Articles  
+  https://michaellorenz.substack.com
+- **Substack** – Google Cloud Skills Boost Profile  
+  https://googlecloudskillsboost.substack.com/
+- **Medium** – Articles & Insights  
+  https://medium.com/@michael-lorenz/
+- **Amazon Author Page** – Books & Publications  
+  https://www.amazon.de/stores/Michael-Lorenz/author/B0F9CYMCLL
 
 ### 🤖 AI Tools & Strategic GPTs
 
@@ -84,8 +99,6 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34-digital-ai-learning-journey-coach-v1-0
 - **Claude-based Leadership Assessment** - AI?assisted Self?Evaluation  
   https://claude.site/artifacts/f5b4d943-399b-4eb8-8f7d-49a128a53b37
-- **AI-based & SEO optimized Personality Analysis**  
-  https://chatgpt.com/share/678cd1f0-8480-8003-adbc-319eb8c0c5a3
 - **ChatGPT Deep Research - Personality Analysis**  
   https://chatgpt.com/share/67c0d169-e70c-8003-81ce-0ee6510305b0
 - **HuggingFace GPT Version** - Chat Assistant Instance  
@@ -103,6 +116,12 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://community.udemy.com/en/profile/321692/Michael_Lorenz
 - **Udacity** - Nanodegree Alumni Network  
   https://community.udacity.com/u/a08a550f
+- **NVIDIA Developer Forum** – GPU & AI Community  
+  https://forums.developer.nvidia.com/u/michael-lorenz
+- **Google AI Developer Forum** – AI Tools & Discussion  
+  https://discuss.ai.google.dev/u/Michael_Lorenz/
+- **Hugging Face Discuss** – Community & Collaboration  
+  https://discuss.huggingface.co/u/ml-the-ai-engineer
 - **Make Community** - Automation & Integration Forum  
   https://community.make.com/u/ml-the-ai-engineer
 - **n8n Community** - Workflow Automation Community  
@@ -112,6 +131,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 - **Spotify Podcast** - Michael Lorenz AI & Strategy  
   https://creators.spotify.com/pod/show/michaellorenz/
+- **YouTube** - ML & AI  
+  https://www.youtube.com/@ML_and_AI
 - **YouTube Music Podcast** - Energy & AI Insights  
   https://music.youtube.com/channel/UCBJ90d_WBRG3zvQumykIjJw
 - **Amazon Music Podcast (Substack RSS)**  
@@ -130,11 +151,13 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 ### 🌐 Other & Local
 
 - **Google Maps Profile** - Local Reviews & Contributions  
-  https://www.google.com/maps/contrib/115711465985712006963/reviews/@48.61687,9.2222913,8z/data=!3m1!4b1!4m3!8m2!3m1!1e1?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D
+https://www.google.com/maps/contrib/115711465985712006963/reviews/@48.61687,9.2222913,8z/data=!3m1!4b1!4m3!8m2!3m1!1e1?entry=ttu&g_ep=EgoyMDI1MDIwMy4wIKXMDSoASAFQAw%3D%3D
 - **Local Guides Connect** - Community Engagement  
   https://www.localguidesconnect.com/u/Michael_Lorenz/summary
 - **Google Site** - Central Hub & Portfolio  
   https://sites.google.com/view/michael-lorenz/home
+- **PayPal.me** – Support & Contributions  
+  https://www.paypal.com/paypalme/MichaelLorenz86
 
 ---
 
