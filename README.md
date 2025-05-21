@@ -32,7 +32,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://huggingface.co/ML-The-AI-Engineer
 - **Google Developer Profile** - Cloud, AI, IoT & Public Code  
   https://developers.google.com/profile/u/michaellorenz
-- **Google Cloud Skills Boost** - Hands?on Labs & Skill Badges  
+- **Google Cloud Skills Boost** - Hands-on Labs & Skill Badges  
   https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa
 - **Microsoft Learn** - AI & Cloud Learning Paths  
   https://learn.microsoft.com/de-de/users/artificial-intelligence
@@ -40,7 +40,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://techcommunity.microsoft.com/users/michael-lorenz/2879362
 - **Stack Overflow** - Developer Q&A and Knowledge Sharing  
   https://stackoverflow.com/users/30133682/michael-lorenz
-- **Meta Stack Exchange** - Cross?network Q&A  
+- **Meta Stack Exchange** - Cross-network Q&A  
   https://meta.stackexchange.com/users/1727041/michael-lorenz
 - **Xing** - Professional Network  
   https://www.xing.com/profile/Michael_Lorenz78
@@ -57,11 +57,11 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 - **LinkedIn** - Strategy, AI Transformation & Battery Tech  
   https://www.linkedin.com/in/michael-lorenz-battery-and-ai/
-- **X (Twitter)** - Real?time Insights & Updates  
+- **X (Twitter)** - Real-time Insights & Updates  
   https://www.x.com/_Michael_Lorenz
 - **Bluesky (Professional)** - Tech Foresight & Systemic Thinking  
   https://bsky.app/profile/ml-the-ai-engineer.bsky.social
-- **Bluesky (Personal)** - Reflections & Human?Tech Interaction  
+- **Bluesky (Personal)** - Reflections & Human-Tech Interaction  
   https://www.bsky.app/profile/michael-lorenz.bsky.social
 - **Threads** - Microcommentary on AI & Culture  
   https://www.threads.net/@michael_lorenz_
@@ -69,7 +69,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://mastodon.social/@MichaelLorenz@mastodon.social
 - **Instagram** - Visual Tech & Lifestyle  
   https://www.instagram.com/michael_lorenz_/
-- **TikTok** - AI?Generated Shorts & Insights  
+- **TikTok** - AI-Generated Shorts & Insights  
   https://www.tiktok.com/@michael.lorenz.ai
 - **Reddit** - Discussions on Intelligence & Growth  
   https://www.reddit.com/user/Michael_Lorenz_AI/
@@ -97,7 +97,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://chatgpt.com/g/g-6756044be0c481919498df3cbee65aa1-digital-leadership-transformation-ai-coach
 - **Digital AI Learning Journey Coach** - Personalized AI Learning Paths  
   https://chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34-digital-ai-learning-journey-coach-v1-0
-- **Claude-based Leadership Assessment** - AI?assisted Self?Evaluation  
+- **Claude-based Leadership Assessment** - AI-assisted Self-Evaluation  
   https://claude.site/artifacts/f5b4d943-399b-4eb8-8f7d-49a128a53b37
 - **ChatGPT Deep Research - Personality Analysis**  
   https://chatgpt.com/share/67c0d169-e70c-8003-81ce-0ee6510305b0
