@@ -4,11 +4,11 @@
   "@id": "https://github.com/MICHAEL-L0RENZ#person",
   "name": "Michael Lorenz",
   "alternateName": "Michael Lorenz AI",
-  "honorificSuffix": ["Dipl.-Ing.", "M.Sc."], {# M.Sc. hinzugefügt #}
+  "honorificSuffix": ["Dipl.-Ing.", "M.Sc."],
   "jobTitle": "AI Engineer, Cognitive Technologist & Strategic Innovator",
   "image": "https://avatars.githubusercontent.com/u/188086008",
   "url": "https://github.com/MICHAEL-L0RENZ",
-  "description": "Michael Lorenz, M.Sc. Energy & Environment Technology (KIT), is an AI Engineer and Cognitive Technologist based in Karlsruhe, Germany. With over a decade of expertise in computational engineering and digital transformation, his focus areas include AI-powered Digital Twins, Battery Testing & Simulation, Cloud Computing (GCP, Azure, AWS), Generative AI, and sustainable system innovation. Passionate about leveraging technology for societal benefit, fostering sustainable practices, continuous learning, and exploring the intersection of technology, cognitive science, and societal development, he demonstrates resilience and creative problem-solving in dynamic environments.", {# Beschreibung angepasst und Abschluss integriert #}
+  "description": "Michael Lorenz, M.Sc. Energy & Environment Technology (KIT), is an AI Engineer and Cognitive Technologist based in Karlsruhe, Germany. With over a decade of expertise in computational engineering and digital transformation, his focus areas include AI-powered Digital Twins, Battery Testing & Simulation, Cloud Computing (GCP, Azure, AWS), Generative AI, and sustainable system innovation. Passionate about leveraging technology for societal benefit, fostering sustainable practices, continuous learning, and exploring the intersection of technology, cognitive science, and societal development, he demonstrates resilience and creative problem-solving in dynamic environments.",
   "nationality": {
     "@type": "Country",
     "name": "Germany"
@@ -30,7 +30,7 @@
       "educationalLevel": "MasterDegree",
        "about": {
          "@type": "Thing",
-         "name": "Mechanical Engineering - Energy & Environment Technology"
+         "name": "Engineering - Energy & Environment Technology"
        },
        "credentialEarned": {
          "@type": "CollegeOrUniversity",
@@ -40,8 +40,9 @@
     },
   "worksFor": {
     "@type": "Organization",
-    "name": "APL GmbH",
-    "jobTitle": "Project Engineer - Battery Testing & AI"
+    "name": "ML The AI Engineer",
+    "jobTitle": "Head of Engineering & Artificial Intelligence",
+    "startDate": "2025"
   },
   "award": "Invited participant in the LinkedIn Community Top Voices program",
   "hasCredential": [
@@ -73,30 +74,71 @@
     { "@type": "Language", "name": "Chinese", "description": "Elementary proficiency" }
   ],
   "knowsAbout": [
-      // Core AI/ML/Cloud
-      "Artificial Intelligence (AI)", "Generative AI", "Large Language Models (LLM)", "Prompt Engineering", "Machine Learning (ML)", "MLOps", "Anthropic Claude", "OpenAI ChatGPT", "Mistral AI", "Meta Llama", "Google Gemini",
-      "Cloud Computing", "Google Cloud Platform (GCP)", "Microsoft Azure", "Amazon Web Services (AWS)", "Vertex AI", "Microsoft Copilot", "Colab", "Cloud Architecture",
-      // Engineering & Simulation
-      "Battery Testing", "Battery Simulation", "High-Voltage Storage", "Electric Mobility",
-      "Digital Twin", "Computational Fluid Dynamics (CFD)", "Numerical Simulation", "Finite Element Analysis (FEA)", "Multi Body Simulation (MBS)",
-      "Thermodynamics", "Fluid Mechanics", "Tribology",
-      // Software & Tools
-      "Python (Programming Language)", "Java", "MATLAB", "Simulink", "VBA", "Linux",
+      "Artificial Intelligence (AI)", "Künstliche Intelligenz (KI)",
+      "Generative AI", "Generative KI",
+      "Large Language Models (LLM)", "Große Sprachmodelle (LLMs)",
+      "Prompt Engineering", "Prompt-Engineering",
+      "Machine Learning (ML)", "Maschinelles Lernen (ML)",
+      "MLOps",
+      "Anthropic Claude", "OpenAI ChatGPT", "Mistral AI", "Meta Llama", "Google Gemini",
+      "Cloud Computing",
+      "Google Cloud Platform (GCP)", "Microsoft Azure", "Amazon Web Services (AWS)",
+      "Vertex AI", "Microsoft Copilot", "Colab",
+      "Cloud Architecture", "Cloud-Architektur",
+      "Battery Testing", "Batterietestung", "Batterietests",
+      "Battery Simulation", "Batteriesimulation",
+      "High-Voltage Storage", "Hochvoltspeicher",
+      "Electric Mobility", "Elektromobilität",
+      "Digital Twin", "Digitaler Zwilling",
+      "Computational Fluid Dynamics (CFD)", "Numerische Strömungssimulation (CFD)",
+      "Numerical Simulation", "Numerische Simulation",
+      "Finite Element Analysis (FEA)", "Finite-Elemente-Methode (FEM)", "Finite-Elemente-Analyse (FEA)",
+      "Multi Body Simulation (MBS)", "Mehrkörpersimulation (MKS)",
+      "Thermodynamics", "Thermodynamik",
+      "Fluid Mechanics", "Strömungsmechanik",
+      "Tribology", "Tribologie",
+      "Python (Programming Language)", "Python (Programmiersprache)",
+      "Java", "Java (Programmiersprache)",
+      "MATLAB", "Simulink", "VBA", "Linux",
       "ANSYS", "Star-CCM+", "OpenFOAM", "CATIA", "PTC Creo", "Vector CANape", "CANoe",
-      // Data & Management
-      "Data Analytics", "Data Management", "Big Data", "Project Management",
-      // Broader Concepts & Skills
-      "Research and Development (R&D)", "Engineering", "Mechanical Engineering", "Electrical Engineering", "Computer Science",
-      "Digital Transformation", "Sustainable Technology", "Green Tech", "Systems Thinking", "Cognitive Systems",
-      "High Performance Computing (HPC)", "Cluster Computing", "Computer-Aided Engineering (CAE)", "Computer-Aided Design (CAD)",
-      "Growth Mindset", "Entrepreneurial Thinking", "Lifelong Learning", "Antifragility Concepts",
-      // Digital Presence & Communication
-      "Content Creation", "Digital Content Strategy", "Social Media Marketing", "Search Engine Optimization (SEO)",
-      "Digital Identity Management", "Online Presence Management", "Personal Knowledge Management", "Technical Writing", "Personal Branding",
-      // Interdisciplinary & Future Focus
-      "Cross-Disciplinary Synthesis", "Cognitive Science", "Psychology of Technology", "Future Studies", "Technology Foresight", "AI Ethics", "Responsible AI",
-      // DevOps/SRE
-      "DevOps", "Site Reliability Engineering (SRE)"
+      "Data Analytics", "Datenanalyse",
+      "Data Management", "Datenmanagement",
+      "Big Data",
+      "Project Management", "Projektmanagement",
+      "Research and Development (R&D)", "Forschung und Entwicklung (FuE)",
+      "Engineering", "Ingenieurwesen",
+      "Mechanical Engineering", "Maschinenbau",
+      "Electrical Engineering", "Elektrotechnik",
+      "Computer Science", "Informatik",
+      "Digital Transformation", "Digitale Transformation",
+      "Sustainable Technology", "Nachhaltige Technologien",
+      "Green Tech", "Umwelttechnologien",
+      "Systems Thinking", "Systemdenken",
+      "Cognitive Systems", "Kognitive Systeme",
+      "High Performance Computing (HPC)", "Hochleistungsrechnen (HPC)",
+      "Cluster Computing", "Cluster-Computing",
+      "Computer-Aided Engineering (CAE)", "Rechnergestützte Entwicklung",
+      "Computer-Aided Design (CAD)", "Rechnergestütztes Konstruieren",
+      "Growth Mindset", "Wachstumsorientierung",
+      "Entrepreneurial Thinking", "Unternehmerisches Denken",
+      "Lifelong Learning", "Lebenslanges Lernen",
+      "Antifragility Concepts", "Antifragilitätskonzepte",
+      "Content Creation", "Content-Erstellung", "Inhaltserstellung",
+      "Digital Content Strategy", "Digitale Content-Strategie",
+      "Social Media Marketing",
+      "Search Engine Optimization (SEO)", "Suchmaschinenoptimierung (SEO)",
+      "Digital Identity Management", "Digitales Identitätsmanagement",
+      "Online Presence Management", "Online-Präsenz-Management",
+      "Personal Knowledge Management", "Persönliches Wissensmanagement",
+      "Technical Writing", "Technische Redaktion", "Technisches Schreiben",
+      "Personal Branding", "Personenmarkenbildung",
+      "Cross-Disciplinary Synthesis", "Interdisziplinäre Synthese",
+      "Future Studies", "Zukunftsforschung",
+      "Technology Foresight", "Technologiefrüherkennung", "Technologische Vorausschau",
+      "AI Ethics", "KI-Ethik",
+      "Responsible AI", "Verantwortungsvolle KI (Responsible AI)",
+      "DevOps",
+      "Site Reliability Engineering (SRE)"
   ],
   "sameAs": [
     "https://www.linkedin.com/in/michael-lorenz-battery-and-ai",
@@ -108,6 +150,7 @@
     "https://huggingface.co/ML-The-AI-Engineer",
     "https://stackoverflow.com/users/30133682/michael-lorenz",
     "https://michaellorenz.substack.com",
+    "https://googlecloudskillsboost.substack.com/",
     "https://medium.com/@michael-lorenz",
     "https://gitlab.com/MichaelLorenz",
     "https://www.kaggle.com/mltheaiengineer",
@@ -132,7 +175,6 @@
     "https://chatgpt.com/g/g-6756044be0c481919498df3cbee65aa1-digital-leadership-transformation-ai-coach",
     "https://chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34-digital-ai-learning-journey-coach-v1-0",
     "https://claude.site/artifacts/f5b4d943-399b-4eb8-8f7d-49a128a53b37",
-    "https://chatgpt.com/share/678cd1f0-8480-8003-adbc-319ebc m5a3",
     "https://chatgpt.com/share/67c0d169-e70c-8003-81ce-0ee6510305b0",
     "https://www.quora.com/profile/Michael-Lorenz-86",
     "https://www.perplexity.ai/search/michael-lorenz-perplexity-ai-QiOyThlFS3208dSt9UnvZg",
@@ -152,6 +194,7 @@
     "https://sites.google.com/view/michael-lorenz/home",
     "https://meta.stackexchange.com/users/1727041/michael-lorenz",
     "https://music.youtube.com/channel/UCBJ90d_WBRG3zvQumykIjJw",
+    "https://music.youtube.com/channel/UCDH_sT0R0EF0MimdmIw0CJw",
     "https://music.amazon.de/podcasts/258dd4a9-b27b-42e9-976c-fb9395b5a507/michael-lorenz-m-sc-energy-podcast",
     "https://music.amazon.de/podcasts/7988f1e5-35f2-49b6-81a0-714e9c3dd6c0/welcome-to-michael-lorenz-%E2%80%93-the-podcast-on-ai-digital-strategy-and-future-technologies",
     "https://music.amazon.de/profiles/@michael-lorenz",
