@@ -131,6 +131,10 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 - **Spotify Podcast** - Michael Lorenz AI & Strategy  
   https://creators.spotify.com/pod/show/michaellorenz/
+- **Spotify Podcast RSS Feed** - Welcome to Michael Lorenz – The Podcast on AI, Digital Strategy and Future Technologies!
+  https://anchor.fm/s/10295b2f0/podcast/rss
+- **Substack Podcast RSS Feed** - Michael Lorenz M.Sc. Energy  
+  https://api.substack.com/feed/podcast/4336081.rss
 - **YouTube** - ML & AI  
   https://www.youtube.com/@ML_and_AI
 - **YouTube Music Podcast** - Energy & AI Insights  
@@ -145,7 +149,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.amazon.de/Michael-Lorenz-Environment-Technology-Podcast/dp/B0F6KCW1JG
 - **Amazon Music Profile** - Creator Page  
   https://music.amazon.de/profiles/@michael-lorenz
-- **Apple Podcast** - Michael-Lorenz M.Sc. Energy Podcast  
+- **Apple Podcast (Substack RSS)** - Michael-Lorenz M.Sc. Energy Podcast  
   https://podcasts.apple.com/us/podcast/michael-lorenz-m-sc-energy-podcast/id1812199274
 - **SoundCloud** - AI & Tech Audio Clips  
   https://soundcloud.com/michael-lorenz-ai/
