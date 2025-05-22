@@ -87,7 +87,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Medium** – Articles & Insights  
   https://medium.com/@michael-lorenz/
 - **Amazon Author Page** – Books & Publications  
-  https://www.amazon.de/stores/Michael-Lorenz/author/B0F9CYMCLL
+  https://www.amazon.com/author/michaellorenz
 
 ### 🤖 AI Tools & Strategic GPTs
 
