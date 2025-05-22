@@ -139,6 +139,10 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://music.amazon.de/podcasts/258dd4a9-b27b-42e9-976c-fb9395b5a507/michael-lorenz-m-sc-energy-podcast
 - **Amazon Music Podcast (Spotify RSS)**  
   https://music.amazon.de/podcasts/7988f1e5-35f2-49b6-81a0-714e9c3dd6c0/welcome-to-michael-lorenz-%E2%80%93-the-podcast-on-ai-digital-strategy-and-future-technologies
+- **Amazon Kindle Podcast (Spotify RSS)**  
+  https://www.amazon.de/Welcome-Michael-Lorenz-Strategy-Technologies/dp/B0F6KJ9KMN
+- **Amazon Kindle Podcast (Substack RSS)**  
+  https://www.amazon.de/Michael-Lorenz-Environment-Technology-Podcast/dp/B0F6KCW1JG
 - **Amazon Music Profile** - Creator Page  
   https://music.amazon.de/profiles/@michael-lorenz
 - **Apple Podcast** - Michael-Lorenz M.Sc. Energy Podcast  
