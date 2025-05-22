@@ -88,6 +88,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://medium.com/@michael-lorenz/
 - **Amazon Author Page** – Books & Publications  
   https://www.amazon.com/author/michaellorenz
+- **Amazon Kindle Direct Publishing Page** – Profile Page  
+  https://www.kdpcommunity.com/s/profile/005at000001pdjV
 
 ### 🤖 AI Tools & Strategic GPTs
 
