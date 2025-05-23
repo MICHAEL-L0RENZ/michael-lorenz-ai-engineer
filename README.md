@@ -50,6 +50,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://scholar.google.de/citations?hl=de&user=_avA-RAAAAAJ
 - **ResearchGate** - Publications & R&D Network  
   https://www.researchgate.net/profile/Michael-Lorenz-14
+- **ORCID** - R&D Publications
+  https://orcid.org/0009-0009-1186-8298
 - **Credly** - Verified Certifications  
   https://www.credly.com/users/michaellorenz
 
