@@ -88,32 +88,22 @@
       },
       {
          "@type": "EducationalOccupationalCredential",
-         "name": "Introduction to Generative AI",
-         "credentialCategory": "Certification",
-         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa/badges/8232687",
+         "name": "Comprehensive Collection of AI & Cloud Badges on Google Cloud Skills Boost",
+         "credentialCategory": "Skill Development & Digital Badges",
+         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa",
          "offeredBy": {
              "@type": "Organization",
-             "name": "Google"
+             "name": "Google Cloud Skills Boost"
          }
       },
       {
          "@type": "EducationalOccupationalCredential",
-         "name": "Introduction to Large Language Models",
-         "credentialCategory": "Certification",
-         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa/badges/8232928",
+         "name": "Comprehensive Collection of AI & Cloud Badges on Microsoft Learn",
+         "credentialCategory": "Skill Development & Digital Badges",
+         "url": "https://learn.microsoft.com/de-de/users/artificial-intelligence",
          "offeredBy": {
              "@type": "Organization",
-             "name": "Google"
-         }
-      },
-      {
-         "@type": "EducationalOccupationalCredential",
-         "name": "Introduction to Generative AI",
-         "credentialCategory": "Certification",
-         "url": "https://www.cloudskillsboost.google/public_profiles/ad995a21-5bb3-4e9a-9a07-f2f22fe4c0fa/badges/8232687",
-         "offeredBy": {
-             "@type": "Organization",
-             "name": "Google"
+             "name": "Microsoft Learn"
          }
       }
       // Weitere hinzufügen...
