@@ -50,7 +50,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://scholar.google.de/citations?hl=de&user=_avA-RAAAAAJ
 - **ResearchGate** - Publications & R&D Network  
   https://www.researchgate.net/profile/Michael-Lorenz-14
-- **ORCID** - R&D Publications
+- **ORCID** - R&D Publications  
   https://orcid.org/0009-0009-1186-8298
 - **Credly** - Verified Certifications  
   https://www.credly.com/users/michaellorenz
@@ -77,6 +77,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.reddit.com/user/Michael_Lorenz_AI/
 - **Quora** – Q&A and Knowledge Sharing  
   https://www.quora.com/profile/Michael-Lorenz-86
+- **Amazon** – Book Reviews & Profile Description  
+  https://www.amazon.de/gp/profile/amzn1.account.AE3U3LWUBVOSMTZ2IK7AE4FHPD3A
 - **Xing** - Secondary Professional Presence  
   https://www.xing.com/profile/Michael_Lorenz78
 
@@ -133,8 +135,12 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 ### 🎙️ Podcasts & Audio Platforms
 
-- **Spotify Podcast** - Michael Lorenz AI & Strategy  
+- **Spotify Podcast Creator** - Michael Lorenz AI & Strategy  
   https://creators.spotify.com/pod/show/michaellorenz/
+- **Spotify Podcast (Substack Feed)** - Michael Lorenz, M.Sc. Energy & Environment Technology (KIT)  Podcast
+  https://open.spotify.com/show/6cLgxVrLctWP9GlQabfkel
+- **Spotify Podcast** - Welcome to Michael Lorenz – The Podcast on AI, Digital Strategy and Future Technologies! Podcast
+  https://open.spotify.com/show/3HfSiy4rE680CiC5rXug2F
 - **Spotify Podcast RSS Feed** - Welcome to Michael Lorenz – The Podcast on AI, Digital Strategy and Future Technologies!
   https://anchor.fm/s/10295b2f0/podcast/rss
 - **Substack Podcast RSS Feed** - Michael Lorenz M.Sc. Energy  
