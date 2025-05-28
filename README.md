@@ -132,6 +132,9 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://community.make.com/u/ml-the-ai-engineer
 - **n8n Community** - Workflow Automation Community  
   https://community.n8n.io/u/michael-lorenz/
+- **Googlen Cloud Community** - AI & Cloud Community  
+  https://www.googlecloudcommunity.com/gc/user/viewprofilepage/user-id/525873
+
 
 ### 🎙️ Podcasts & Audio Platforms
 
@@ -165,6 +168,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://soundcloud.com/michael-lorenz-ai/
 - **Linktree** - Central Link Aggregator  
   https://linktr.ee/michaellorenz
+- **Pod.link** - Central Podcast Link Aggregator  
+  https://pod.link/1812199274
 
 ### 🌐 Other & Local
 
