@@ -66,7 +66,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Bluesky (Personal)** - Reflections & Human-Tech Interaction  
   https://www.bsky.app/profile/michael-lorenz.bsky.social
 - **Threads** - Microcommentary on AI & Culture  
-  https://www.threads.net/@michael_lorenz_
+  https://www.threads.net/@michael_lorenz_/
 - **Mastodon** - Decentralized Tech Discourse  
   https://mastodon.social/@MichaelLorenz@mastodon.social
 - **Instagram** - Visual Tech & Lifestyle  
