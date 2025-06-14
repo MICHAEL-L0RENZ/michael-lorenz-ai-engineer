@@ -52,6 +52,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.researchgate.net/profile/Michael-Lorenz-14
 - **ORCID** - R&D Publications  
   https://orcid.org/0009-0009-1186-8298
+- **Semantic Scholar** - R&D Publications  
+  https://www.semanticscholar.org/author/Michael-Lorenz/2308043299/
 - **Credly** - Verified Certifications  
   https://www.credly.com/users/michaellorenz
 
