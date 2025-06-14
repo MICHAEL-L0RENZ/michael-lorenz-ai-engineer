@@ -172,6 +172,9 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://linktr.ee/michaellorenz
 - **Pod.link** - Central Podcast Link Aggregator  
   https://pod.link/1812199274
+- **Gravatar** - Central Identity Aggregator  
+  https://gravatar.com/michaellorenzai
+  
 
 ### 🌐 Other & Local
 
