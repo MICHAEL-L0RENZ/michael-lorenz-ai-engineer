@@ -96,6 +96,10 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.amazon.com/author/michaellorenz
 - **Amazon Kindle Direct Publishing Page** – Profile Page  
   https://www.kdpcommunity.com/s/profile/005at000001pdjV
+- **Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance** – Paper on KIT Page
+  https://publikationen.bibliothek.kit.edu/230093432/6211433
+- **Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance** – Paper on IAEA Page
+  https://inis.iaea.org/records/3dhkc-65y07
 
 ### 🤖 AI Tools & Strategic GPTs
 
