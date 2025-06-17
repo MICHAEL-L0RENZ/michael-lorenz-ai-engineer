@@ -109,6 +109,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://chatgpt.com/g/g-6756044be0c481919498df3cbee65aa1-digital-leadership-transformation-ai-coach
 - **Digital AI Learning Journey Coach** - Personalized AI Learning Paths  
   https://chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34-digital-ai-learning-journey-coach-v1-0
+- **Michael Lorenz, M.Sc. Energy & Environment (KIT)** - Personalized AI-Self  
+  https://chatgpt.com/g/g-675b77c12aec819182ebc9ec62428a34-digital-ai-learning-journey-coach-v1-0
 - **Claude-based Leadership Assessment** - AI-assisted Self-Evaluation  
   https://claude.site/artifacts/f5b4d943-399b-4eb8-8f7d-49a128a53b37
 - **ChatGPT Deep Research - Personality Analysis**  
