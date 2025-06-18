@@ -26,6 +26,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://github.com/MICHAEL-L0RENZ
 - **GitLab** - Machine Learning, Battery Testing & Open Infrastructure  
   https://gitlab.com/MichaelLorenz / https://michael-lorenz.gitlab.io/
+- **GitLab Forum** - Discussions on Machine Learning, Battery Testing & Open Infrastructure  
+  https://forum.gitlab.com/u/michaellorenz/
 - **Kaggle** - AI Notebooks, Benchmark Datasets & Battery Analytics  
   https://www.kaggle.com/mltheaiengineer
 - **Hugging Face** – AI Models, Datasets & Spaces  
