@@ -58,7 +58,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.semanticscholar.org/author/Michael-Lorenz/2308043299/
 - **Academia.edu** - R&D Publications  
   https://kit.academia.edu/MichaelLorenz
-- **Zenedo Community** - ML The AI Engineer R&D Publications  
+- **Zenodo Community** - ML The AI Engineer R&D Publications  
   https://https://zenodo.org/communities/michael-lorenz-msc-energy-environment-technology-kit
   
 - **Credly** - Verified Certifications  
