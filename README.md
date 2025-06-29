@@ -91,27 +91,33 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Xing** - Secondary Professional Presence  
   https://www.xing.com/profile/Michael_Lorenz78
 
-### 📝 Writing & Publications
+---
 
-- **Substack** – Newsletter & Articles  
-  https://michaellorenz.substack.com
-- **Substack** – Google Cloud Skills Boost Profile  
-  https://googlecloudskillsboost.substack.com/
-- **Medium** – Articles & Insights  
-  https://medium.com/@michael-lorenz/
-- **Amazon Author Page** – Books & Publications  
-  https://www.amazon.com/author/michaellorenz
-- **Amazon Kindle Direct Publishing Page** – Profile Page  
-  https://www.kdpcommunity.com/s/profile/005at000001pdjV
-- **Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance** – Paper on KIT Page  
-  https://publikationen.bibliothek.kit.edu/230093432/6211433
-- **Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance** – Paper on IAEA Page  
-  https://inis.iaea.org/records/3dhkc-65y07
-- **Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance** – Paper on ETDEWEB Page  
-  https://www.osti.gov/etdeweb/biblio/22268322
-- **Michael Lorenz, M.Sc. Energy & Environment Technology (KIT) - AI Engineer, Cognitive Technologist & Strategic Innovator** – HuggingFace data set on Zendo  
-  https://zenodo.org/records/15727261
-  
+## 📝 Publications, Datasets & Writing
+
+### Scientific Publications & Citable Datasets
+
+* **Digital Identity Corpus (v1.0.0)**
+    * This repository, published as a citable dataset to ensure long-term preservation and discoverability.
+    * **DOI:** [10.5281/zenodo.15766749](https://doi.org/10.5281/zenodo.15766749)
+    * **Zenodo Record:** [records/15766749](https://zenodo.org/records/15766749)
+    * **OpenAIRE:** [Indexed Record](https://explore.openaire.eu/search/software?pid=10.5281%2Fzenodo.15766749)
+    * **Software Heritage:** [Archived Source](https://archive.softwareheritage.org/browse/directory/0e363642f94ef68bf41be6ee05a1cb1957a9bbb7/?origin_url=https://doi.org/10.5281/zenodo.15766749)
+
+* **HuggingFace Dataset on AI Engineering**
+    * **Zenodo Record:** [records/15727261](https://zenodo.org/records/15727261)
+
+* **Paper: Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance**
+    * **View on:** [KIT-Bibliothek](https://publikationen.bibliothek.kit.edu/230093432/6211433) | [IAEA-INIS](https://inis.iaea.org/records/3dhkc-65y07) | [ETDEWEB](https://www.osti.gov/etdeweb/biblio/22268322)
+
+### Articles & Author Profiles
+
+* **Substack:** [Newsletter & Articles](https://michaellorenz.substack.com)
+* **Medium:** [Articles & Insights](https://medium.com/@michael-lorenz/)
+* **Amazon:** [Author Page](https://www.amazon.com/author/michaellorenz) & [KDP Profile](https://www.kdpcommunity.com/s/profile/005at000001pdjV)
+
+---
+
 
 ### 🤖 AI Tools & Strategic GPTs
 
