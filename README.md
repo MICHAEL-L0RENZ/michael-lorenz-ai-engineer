@@ -217,6 +217,8 @@ https://www.google.com/maps/contrib/115711465985712006963/reviews/@48.61687,9.22
 
 ## 📜 License
 
-All contents in this repository are published under the [Creative Commons Zero v1.0 Universal (CC0)](https://creativecommons.org/publicdomain/zero/1.0/) license.
+All contents in this repository are published under the [Hippocratic License, version 2.1](https://firstdonoharm.dev/version/2/1/license.html) license.
 
-> My aim is to foster open, sustainable, and collaborative technology ecosystems.
+This license was chosen to ensure that the data and any derivatives are used in a manner that respects human rights and dignity. The full text of the license is available in the LICENSE file in this repository.
+
+> My aim is to foster open, sustainable, and collaborative technology ecosystems built on a foundation of ethical and responsible principles.
