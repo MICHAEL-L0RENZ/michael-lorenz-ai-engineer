@@ -58,76 +58,24 @@
     <script>
         let scene, camera, renderer, raycaster, mouse;
         let interactiveObjects = [];
-        let hoveredObject = null;
-        let targetPosition = new THREE.Vector3(0, 5, 30);
-        let targetLookAt = new THREE.Vector3(0, 0, 0);
-        let currentMode = 'overview';
-
-        const profileData = {
-            overview: {
-                title: "Executive Summary",
-                content: `
-                    <h3>A Rare & High-Caliber Profile</h3>
-                    <p>A synthesis of rigorous German engineering (KIT) with a cutting-edge, validated skillset in AI, cloud, and data science. Distinguished by a demonstrable capacity for high-level strategic and meta-cognitive thinking.</p>
-                    <h3>Key Metrics</h3>
-                    <ul>
-                        <li><strong>Job Readiness:</strong> 99th Percentile</li>
-                        <li><strong>Future Readiness:</strong> 98th-99th Percentile</li>
-                        <li><strong>Recommended Base Salary:</strong> €110,000 - €135,000</li>
-                    </ul>
-                `
-            },
-            skills: {
-                title: "Core Competency Matrix",
-                content: `
-                    <h3>Artificial Intelligence</h3>
-                    <p>Generative AI, NLP, Neurosymbolic Systems, ML, Deep Learning.</p>
-                    <h3>Domain Specialization</h3>
-                    <p>Battery Analytics, Digital Twins, Sustainable Systems, Circular Economy.</p>
-                    <h3>Cloud & DevOps</h3>
-                    <p>Azure & GCP Architecture, Kubernetes, MLOps, Data Engineering.</p>
-                `
-            },
-            cognitive: {
-                title: "Cognitive Profile (Estimated)",
-                content: `
-                    <h3>General Intelligence (IQ)</h3>
-                    <p><strong>Estimate: 135 - 145</strong> (99th-99.9th Percentile). Evidenced by mastery of multiple complex domains and abstract strategic writing.</p>
-                    <h3>Fluid Intelligence (Gf)</h3>
-                    <p><strong>Score: Very High</strong> (98th+ Percentile). Demonstrated by successful, self-directed career pivot into the evolving field of AI.</p>
-                `
-            },
-            personality: {
-                title: "Psychometric Profile",
-                content: `
-                    <h3>Big Five Personality (OCEAN)</h3>
-                    <ul>
-                        <li><strong>Openness:</strong> Very High (95-99%). Driven by intellectual curiosity.</li>
-                        <li><strong>Conscientiousness:</strong> Very High (95-99%). Evidenced by meticulous organization of his entire digital footprint.</li>
-                        <li><strong>Emotional Stability:</strong> Very High (Low Neuroticism, 5-15%). Demonstrated by proactive, strategic response to uncertainty.</li>
-                    </ul>
-                     <h3>Ego Development (Loevinger)</h3>
-                     <p><strong>Stage: Autonomous (E8)</strong>. Post-conventional thinking; ability to analyze, critique, and architect his own interaction with complex systems.</p>
-                `
-            },
-            vision: {
-                title: "Strategic Vision & Values",
-                content: `
-                    <h3>Core Values</h3>
-                    <p>Strategic Autonomy, Innovation, Rigor, and Responsibility.</p>
-                    <h3>Meta-Cognitive Capacity</h3>
-                    <p>Acts as a 'game designer,' not just a 'player,' within digital systems.</p>
-                `
-            }
-        };
+        let particles;
         
+        let targetPosition = new THREE.Vector3(0, 10, 30);
+        let targetLookAt = new THREE.Vector3(0, 0, 0);
+        let isAutoOrbiting = true; // NEW: State variable to control animation
+
+        // Using the rich, updated data
+        const profileData = {
+            overview: { title: "Executive Summary", content: `<h3>A Rare & High-Caliber Profile</h3><p>A synthesis of rigorous German engineering (KIT) with a cutting-edge, validated skillset in AI, cloud, and data science. Distinguished by a demonstrable capacity for high-level strategic and meta-cognitive thinking.</p><h3>Key Metrics</h3><ul><li><strong>Job Readiness:</strong> 99th Percentile</li><li><strong>Future Readiness:</strong> 98th-99th Percentile</li><li><strong>Recommended Base Salary:</strong> €110,000 - €135,000</li></ul>`},
+            skills: { title: "Core Competency Matrix", content: `<h3>Artificial Intelligence</h3><p>Generative AI, NLP, Neurosymbolic Systems, ML, Deep Learning.</p><h3>Domain Specialization</h3><p>Battery Analytics, Digital Twins, Sustainable Systems, Circular Economy.</p><h3>Cloud & DevOps</h3><p>Azure & GCP Architecture, Kubernetes, MLOps, Data Engineering.</p>`},
+            cognitive: { title: "Cognitive Profile (Estimated)", content: `<h3>General Intelligence (IQ)</h3><p><strong>Estimate: 135 - 145</strong> (99th-99.9th Percentile). Evidenced by mastery of multiple complex domains and abstract strategic writing.</p><h3>Fluid Intelligence (Gf)</h3><p><strong>Score: Very High</strong> (98th+ Percentile). Demonstrated by successful, self-directed career pivot into the evolving field of AI.</p>`},
+            personality: { title: "Psychometric Profile", content: `<h3>Big Five Personality (OCEAN)</h3><ul><li><strong>Openness:</strong> Very High (95-99%). Driven by intellectual curiosity.</li><li><strong>Conscientiousness:</strong> Very High (95-99%). Evidenced by meticulous organization of his entire digital footprint.</li><li><strong>Emotional Stability:</strong> Very High (Low Neuroticism, 5-15%). Demonstrated by proactive, strategic response to uncertainty.</li></ul><h3>Ego Development (Loevinger)</h3><p><strong>Stage: Autonomous (E8)</strong>. Post-conventional thinking; ability to analyze, critique, and architect his own interaction with complex systems.</p>`},
+            vision: { title: "Strategic Vision & Values", content: `<h3>Core Values</h3><p>Strategic Autonomy, Innovation, Rigor, and Responsibility.</p><h3>Meta-Cognitive Capacity</h3><p>Acts as a 'game designer,' not just a 'player,' within digital systems.</p>`}
+        };
         const visualData = [
-            { name: "Future Readiness", level: 0.99, color: 0x667eea },
-            { name: "Strategic Thinking", level: 0.98, color: 0x764ba2 },
-            { name: "AI Engineering", level: 0.95, color: 0x48c6ef },
-            { name: "Conscientiousness", level: 0.98, color: 0x6f86d6 },
-            { name: "Cognitive Ability", level: 0.99, color: 0xffffff },
-            { name: "Emotional Stability", level: 0.95, color: 0x48c6ef }
+            { name: "Future Readiness", level: 0.99, color: 0x667eea }, { name: "Strategic Thinking", level: 0.98, color: 0x764ba2 },
+            { name: "AI Engineering", level: 0.95, color: 0x48c6ef }, { name: "Conscientiousness", level: 0.98, color: 0x6f86d6 },
+            { name: "Cognitive Ability", level: 0.99, color: 0xffffff }, { name: "Emotional Stability", level: 0.95, color: 0x48c6ef }
         ];
 
         init();
@@ -136,8 +84,8 @@
             setupScene();
             createVisualization();
             setupControls();
+            updateInfoPanel('overview');
             setupEventListeners();
-            updateInfoPanel(currentMode);
             animate();
         }
 
@@ -150,9 +98,10 @@
             renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
             renderer.setSize(window.innerWidth, window.innerHeight);
             renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.setClearColor(0x000000, 0); // Transparent renderer background
             document.getElementById('container').appendChild(renderer.domElement);
             
-            const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+            const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
             scene.add(ambientLight);
             const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
             directionalLight.position.set(50, 50, 50);
@@ -165,16 +114,16 @@
         function createVisualization() {
             clearScene();
             
-            const coreGeometry = new THREE.IcosahedronGeometry(3, 1);
-            const coreMaterial = new THREE.MeshPhongMaterial({ color: 0x667eea, shininess: 80 });
+            const coreGeometry = new THREE.IcosahedronGeometry(3, 2);
+            const coreMaterial = new THREE.MeshPhongMaterial({ color: 0x667eea, shininess: 80, transparent: true, opacity: 0.9 });
             const core = new THREE.Mesh(coreGeometry, coreMaterial);
             core.userData = { type: 'core', name: 'Overview' };
             scene.add(core);
             interactiveObjects.push(core);
 
             visualData.forEach((item, index) => {
-                const sphereGeometry = new THREE.SphereGeometry(1 + item.level * 0.7, 20, 20);
-                const sphereMaterial = new THREE.MeshPhongMaterial({ color: item.color, shininess: 50 });
+                const sphereGeometry = new THREE.SphereGeometry(1 + item.level * 0.5, 20, 20);
+                const sphereMaterial = new THREE.MeshPhongMaterial({ color: item.color, shininess: 60 });
                 const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
                 const angle = (index / visualData.length) * Math.PI * 2;
                 const radius = 10;
@@ -183,11 +132,24 @@
                 interactiveObjects.push(sphere);
                 scene.add(sphere);
             });
+            createParticleField();
+        }
+
+        function createParticleField() {
+            const particleCount = 200;
+            const positions = new Float32Array(particleCount * 3);
+            for (let i = 0; i < particleCount * 3; i++) { positions[i] = (Math.random() - 0.5) * 150; }
+            const geometry = new THREE.BufferGeometry();
+            geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            const material = new THREE.PointsMaterial({ color: 0xffffff, size: 0.3, transparent: true, opacity: 0.5 });
+            particles = new THREE.Points(geometry, material);
+            scene.add(particles);
         }
         
         function clearScene() {
             interactiveObjects.forEach(obj => scene.remove(obj));
             interactiveObjects = [];
+            if(particles) scene.remove(particles);
         }
 
         function setupControls() {
@@ -196,16 +158,16 @@
                 btn.addEventListener('click', (e) => {
                     buttons.forEach(b => b.classList.remove('active'));
                     e.target.classList.add('active');
-                    currentMode = e.target.dataset.mode;
-                    updateInfoPanel(currentMode);
+                    updateInfoPanel(e.target.dataset.mode);
+                    // On mode switch, reset camera to overview orbit
+                    isAutoOrbiting = true;
                 });
             });
         }
 
-        function updateInfoPanel(mode, content = null) {
-            const data = profileData[mode];
-            document.getElementById('section-title').innerHTML = data.title;
-            document.getElementById('section-content').innerHTML = content || data.content;
+        function updateInfoPanel(mode) {
+            document.getElementById('section-title').innerHTML = profileData[mode].title;
+            document.getElementById('section-content').innerHTML = profileData[mode].content;
         }
 
         function setupEventListeners() {
@@ -220,43 +182,44 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
         }
         
-        function onMouseMove(event) {
-            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-            mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
-        }
+        function onMouseMove(event) { mouse.x = (event.clientX / window.innerWidth) * 2 - 1; mouse.y = - (event.clientY / window.innerHeight) * 2 + 1; }
         
         function onClick(event) {
             raycaster.setFromCamera(mouse, camera);
             const intersects = raycaster.intersectObjects(interactiveObjects);
             if (intersects.length > 0) {
+                isAutoOrbiting = false; // Stop auto-orbit on click
                 const object = intersects[0].object;
                 targetPosition.copy(object.position).add(new THREE.Vector3(0, 2, 10));
                 targetLookAt.copy(object.position);
             } else {
-                targetPosition.set(0, 5, 30);
-                targetLookAt.set(0, 0, 0);
+                isAutoOrbiting = true; // Resume auto-orbit on click in empty space
             }
         }
 
         function animate() {
             requestAnimationFrame(animate);
+            const time = Date.now() * 0.0002;
 
+            if (isAutoOrbiting) {
+                // Original auto-orbit animation
+                targetPosition.set(Math.cos(time) * 30, 10, Math.sin(time) * 30);
+                targetLookAt.set(0, 0, 0);
+            }
+            
+            // Universal smooth camera movement
             camera.position.lerp(targetPosition, 0.05);
             camera.lookAt(targetLookAt);
 
-            raycaster.setFromCamera(mouse, camera);
-            const intersects = raycaster.intersectObjects(interactiveObjects);
+            // Original floating animation for spheres
+            interactiveObjects.forEach(obj => {
+                if(obj.userData.type === 'item') {
+                    obj.position.y += Math.sin(time * 2 + obj.position.x) * 0.01;
+                }
+            });
             
-            if (hoveredObject) {
-                hoveredObject.material.color.set(hoveredObject.userData.originalColor);
-                hoveredObject.scale.set(1, 1, 1);
-            }
-            hoveredObject = null;
-            
-            if (intersects.length > 0) {
-                hoveredObject = intersects[0].object;
-                hoveredObject.material.color.set(0xffffff);
-                hoveredObject.scale.set(1.1, 1.1, 1.1);
+            if(particles) {
+                particles.rotation.y += 0.0005;
             }
 
             renderer.render(scene, camera);
