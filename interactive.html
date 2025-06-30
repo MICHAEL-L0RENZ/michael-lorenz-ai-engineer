@@ -71,6 +71,7 @@
         let targetPosition = new THREE.Vector3(0, 10, 30);
         let targetLookAt = new THREE.Vector3(0, 0, 0);
 
+        // --- VOLLSTÄNDIGE DATENOBJEKTE ---
         const profileData = {
             overview: { title: "Executive Summary", content: `<h3>A Rare & High-Caliber Profile</h3><p>A synthesis of rigorous German engineering (KIT) with a cutting-edge, validated skillset in AI, cloud, and data science. Distinguished by a demonstrable capacity for high-level strategic and meta-cognitive thinking.</p><h3>Key Metrics</h3><ul><li><strong>Job Readiness:</strong> 99th Percentile</li><li><strong>Future Readiness:</strong> 98th-99th Percentile</li><li><strong>Recommended Base Salary:</strong> €110,000 - €135,000</li></ul>`},
             skills: { title: "Core Competency Matrix", content: `<h3>Artificial Intelligence</h3><p>Generative AI, NLP, Neurosymbolic Systems, ML, Deep Learning.</p><h3>Domain Specialization</h3><p>Battery Analytics, Digital Twins, Sustainable Systems, Circular Economy.</p><h3>Cloud & DevOps</h3><p>Azure & GCP Architecture, Kubernetes, MLOps, Data Engineering.</p>`},
@@ -79,7 +80,11 @@
             vision: { title: "Strategic Vision & Values", content: `<h3>Core Values</h3><p>Strategic Autonomy, Innovation, Rigor, and Responsibility.</p><h3>Meta-Cognitive Capacity</h3><p>Acts as a 'game designer,' not just a 'player,' within digital systems.</p>`},
             network: { title: "Digital Ecosystem Architecture", content: `<h3>Research & Publication</h3><p>Zenodo, ORCID, Google Scholar - Academic credibility</p><h3>Development & Portfolio</h3><p>GitHub, GitLab, Hugging Face, Kaggle - Technical evidence</p><h3>Knowledge Sharing</h3><p>Podcasts, Articles, Meta-analysis - Thought leadership</p>`}
         };
-        const visualData = [ { name: "Future Readiness", level: 0.99, color: 0x667eea }, { name: "Strategic Thinking", level: 0.98, color: 0x764ba2 }, { name: "AI Engineering", level: 0.95, color: 0x48c6ef }, { name: "Conscientiousness", level: 0.98, color: 0x6f86d6 }, { name: "Cognitive Ability", level: 0.99, color: 0xffffff }, { name: "Emotional Stability", level: 0.95, color: 0x48c6ef } ];
+        const visualData = [
+            { name: "Future Readiness", level: 0.99, color: 0x667eea }, { name: "Strategic Thinking", level: 0.98, color: 0x764ba2 },
+            { name: "AI Engineering", level: 0.95, color: 0x48c6ef }, { name: "Conscientiousness", level: 0.98, color: 0x6f86d6 },
+            { name: "Cognitive Ability", level: 0.99, color: 0xffffff }, { name: "Emotional Stability", level: 0.95, color: 0x48c6ef }
+        ];
 
         init();
 
@@ -122,11 +127,8 @@
                 const obj = interactiveObjects[i];
                 if(obj.geometry) obj.geometry.dispose();
                 if(obj.material) {
-                    if (Array.isArray(obj.material)) {
-                        obj.material.forEach(material => material.dispose());
-                    } else {
-                        obj.material.dispose();
-                    }
+                    if (Array.isArray(obj.material)) obj.material.forEach(m => m.dispose());
+                    else obj.material.dispose();
                 }
                 scene.remove(obj);
             }
@@ -143,54 +145,20 @@
                 const angle = (index / visualData.length) * Math.PI * 2;
                 const radius = 12 + Math.random() * 2;
                 sphere.position.set(Math.cos(angle) * radius, (Math.random() - 0.5) * 6, Math.sin(angle) * radius);
-                sphere.userData = { type: 'planet', item: item };
+                sphere.userData = { type: 'planet', item: item, originalColor: new THREE.Color(item.color) };
                 scene.add(sphere);
                 interactiveObjects.push(sphere);
                 planets.push(sphere);
             });
             
-            const lineMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.2 });
+            const lineMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.15 });
             for (let i = 0; i < planets.length; i++) {
                 for (let j = i + 1; j < planets.length; j++) {
-                    const line = new THREE.Line(
-                        new THREE.BufferGeometry().setFromPoints([planets[i].position, planets[j].position]),
-                        lineMaterial
-                    );
+                    const line = new THREE.Line( new THREE.BufferGeometry().setFromPoints([planets[i].position, planets[j].position]), lineMaterial );
                     scene.add(line);
                     interactiveObjects.push(line);
                 }
             }
-        }
-        
-        function createSkillsVisualization() {
-             visualData.forEach((item, index) => {
-                const height = item.level * 15;
-                const tower = new THREE.Mesh(
-                    new THREE.CylinderGeometry(1, 1, height, 12),
-                    new THREE.MeshPhongMaterial({ color: item.color, transparent: true, opacity: 0.8 })
-                );
-                tower.position.set((index - (visualData.length-1)/2) * 4, height / 2, 0);
-                scene.add(tower);
-                interactiveObjects.push(tower);
-            });
-        }
-        function createNetworkVisualization() {
-             const centralNode = new THREE.Mesh(new THREE.SphereGeometry(2, 16, 16), new THREE.MeshPhongMaterial({ color: 0xffffff }));
-            scene.add(centralNode);
-            interactiveObjects.push(centralNode);
-            const platforms = ["Research", "Development", "Kaggle", "HuggingFace", "LinkedIn", "Podcasts"];
-            platforms.forEach((platform, index) => {
-                const angle = (index / platforms.length) * Math.PI * 2;
-                const radius = 15;
-                const pos = new THREE.Vector3(Math.cos(angle) * radius, (Math.random() - 0.5) * 8, Math.sin(angle) * radius);
-                const node = new THREE.Mesh(new THREE.SphereGeometry(1.2, 12, 12), new THREE.MeshPhongMaterial({ color: visualData[index % visualData.length].color }));
-                node.position.copy(pos);
-                scene.add(node);
-                interactiveObjects.push(node);
-                const line = new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(0,0,0), pos]), new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.5 }));
-                scene.add(line);
-                interactiveObjects.push(line);
-            });
         }
         
         function setupControls() {
@@ -209,23 +177,42 @@
             isAutoOrbiting = true;
             targetPosition.set(0, 10, 30);
             targetLookAt.set(0, 0, 0);
-
-            switch(mode) {
-                case 'overview': createOverviewVisualization(); break;
-                case 'skills': createSkillsVisualization(); break;
-                case 'cognitive': createOverviewVisualization(); break;
-                case 'personality': createOverviewVisualization(); break;
-                case 'vision': createOverviewVisualization(); break;
-                case 'network': createNetworkVisualization(); break;
-                default: createOverviewVisualization();
-            }
+            createOverviewVisualization(); 
         }
         
-        function updateInfoPanel(mode) { /* ... same as previous ... */ }
-        function setupEventListeners() { /* ... same as previous ... */ }
-        function onWindowResize() { /* ... same as previous ... */ }
-        function onMouseMove(event) { /* ... same as previous ... */ }
-        function onClick(event) { /* ... same as previous ... */ }
+        function updateInfoPanel(mode) {
+            if (profileData[mode]) {
+                document.getElementById('section-title').innerHTML = profileData[mode].title;
+                document.getElementById('section-content').innerHTML = profileData[mode].content;
+            }
+        }
+
+        function setupEventListeners() {
+            window.addEventListener('resize', onWindowResize);
+            renderer.domElement.addEventListener('mousemove', onMouseMove);
+            renderer.domElement.addEventListener('click', onClick);
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+        
+        function onMouseMove(event) { mouse.x = (event.clientX / window.innerWidth) * 2 - 1; mouse.y = - (event.clientY / window.innerHeight) * 2 + 1; }
+        
+        function onClick(event) {
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(interactiveObjects.filter(o => o.isMesh));
+            if (intersects.length > 0) {
+                isAutoOrbiting = false;
+                const object = intersects[0].object;
+                targetPosition.copy(object.position).add(new THREE.Vector3(0, 1, 8));
+                targetLookAt.copy(object.position);
+            } else {
+                isAutoOrbiting = true;
+            }
+        }
         
         function animate() {
             requestAnimationFrame(animate);
