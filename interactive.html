@@ -69,15 +69,13 @@
     </div>
 
     <script>
-        // --- GLOBAL VARIABLES ---
         let scene, camera, renderer, raycaster, mouse;
-        let interactiveObjects = [];
+        const interactiveObjects = [];
         let particles1, particles2;
         let isAutoOrbiting = true;
         let targetPosition = new THREE.Vector3(0, 10, 40);
         let targetLookAt = new THREE.Vector3(0, 0, 0);
 
-        // --- DATA ---
         const profileData = {
             overview: { title: "Executive Summary", content: `<h3>A Rare & High-Caliber Profile</h3><p>A synthesis of rigorous German engineering (KIT) with a cutting-edge, validated skillset in AI, cloud, and data science. Distinguished by a demonstrable capacity for high-level strategic and meta-cognitive thinking.</p>`},
             skills: { title: "Core Competency Matrix", content: `<h3>Artificial Intelligence</h3><p>Generative AI, NLP, Neurosymbolic Systems, ML, Deep Learning.</p><h3>Domain Specialization</h3><p>Battery Analytics, Digital Twins, Sustainable Systems, Circular Economy.</p><h3>Cloud & DevOps</h3><p>Azure & GCP Architecture, Kubernetes, MLOps, Data Engineering.</p>`},
@@ -88,7 +86,6 @@
         };
         const visualData = [ { name: "Future Readiness", level: 0.99, color: 0x667eea }, { name: "Strategic Thinking", level: 0.98, color: 0x764ba2 }, { name: "AI Engineering", level: 0.95, color: 0x48c6ef }, { name: "Conscientiousness", level: 0.98, color: 0x6f86d6 }, { name: "Cognitive Ability", level: 0.99, color: 0xffffff }, { name: "Emotional Stability", level: 0.95, color: 0x48c6ef } ];
 
-        // --- INITIALIZATION ---
         init();
 
         function init() {
@@ -139,13 +136,13 @@
         }
 
         function createSolarSystem(config) {
-            const core = new THREE.Mesh( new THREE.IcosahedronGeometry(3.5, 2), new THREE.MeshPhongMaterial({ color: 0x667eea, shininess: 90 }) );
+            const core = new THREE.Mesh( new THREE.IcosahedronGeometry(3.5, 3), new THREE.MeshPhongMaterial({ color: 0x667eea, shininess: 90 }) );
             core.userData = { type: 'core', orbitRadius: 8, orbitSpeed: config.coreSpeed, orbitOffset: Math.random() * Math.PI * 2, yFactor: 3 };
             scene.add(core);
             interactiveObjects.push(core);
 
             let planets = [];
-            visualData.forEach((item, index) => {
+            visualData.forEach((item) => {
                 const sphere = new THREE.Mesh( new THREE.SphereGeometry(0.8 + item.level * 0.7, 20, 20), new THREE.MeshPhongMaterial({ color: item.color, shininess: 60 }) );
                 sphere.userData = { type: 'planet', item: item, parent: core, orbitRadius: 7 + Math.random() * 4, orbitSpeed: config.planetSpeed * (1 + Math.random()), orbitOffset: Math.random() * Math.PI * 2, yFactor: (Math.random() - 0.5) * 8 };
                 scene.add(sphere);
@@ -181,8 +178,8 @@
         }
         
         function createNetworkVisualization() {
-            const centralNode = new THREE.Mesh(new THREE.SphereGeometry(2.5, 16, 16), new THREE.MeshPhongMaterial({ color: 0x667eea }));
-            centralNode.position.x = -5; // Slightly off-center
+            const centralNode = new THREE.Mesh(new THREE.IcosahedronGeometry(2.5, 1), new THREE.MeshPhongMaterial({ color: 0x667eea }));
+            centralNode.position.x = -5;
             scene.add(centralNode);
             interactiveObjects.push(centralNode);
 
@@ -190,7 +187,7 @@
             platforms.forEach((platform, index) => {
                 const angle = (index / platforms.length) * Math.PI * 2;
                 const radius = 15;
-                const pos = new THREE.Vector3(Math.cos(angle) * radius, (Math.random() - 0.5) * 8, Math.sin(angle) * radius);
+                const pos = new THREE.Vector3(centralNode.position.x + Math.cos(angle) * radius, (Math.random() - 0.5) * 8, centralNode.position.z + Math.sin(angle) * radius);
                 const node = new THREE.Mesh(new THREE.SphereGeometry(1.2, 12, 12), new THREE.MeshPhongMaterial({ color: visualData[index % visualData.length].color }));
                 node.position.copy(pos);
                 node.userData = { type: 'node', item: { name: platform } };
@@ -230,8 +227,8 @@
             targetLookAt.set(0, 0, 0);
 
             const configs = {
-                overview: { coreSpeed: 0.0003, planetSpeed: 0.0009 },
-                cognitive: { coreSpeed: 0.0005, planetSpeed: 0.0015 },
+                overview: { coreSpeed: 0.0003, planetSpeed: 0.001 },
+                cognitive: { coreSpeed: 0.0005, planetSpeed: 0.0018 },
                 personality: { coreSpeed: 0.0002, planetSpeed: 0.0007 }
             };
 
@@ -298,7 +295,7 @@
         function animate() {
             requestAnimationFrame(animate);
             const time = Date.now();
-            const timeSlow = time * 0.0008; // Faster base speed
+            const timeSlow = time * 0.0008;
 
             if (isAutoOrbiting) {
                 targetPosition.set(Math.cos(timeSlow) * 40, 15, Math.sin(timeSlow) * 40);
