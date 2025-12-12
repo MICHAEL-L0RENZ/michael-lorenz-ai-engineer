@@ -22,7 +22,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 
 ### 🧑‍💻 Professional & Technical Profiles
 
-- **Crunchbase** - International Tech, Startup & Venture Capital
+- **Crunchbase** - International Tech, Startup & Venture Capital  
   https://www.crunchbase.com/person/michael-lorenz-6fb0
 - **GitHub** - AI Engineering Projects & Digital Twin Concepts  
   https://github.com/MICHAEL-L0RENZ
