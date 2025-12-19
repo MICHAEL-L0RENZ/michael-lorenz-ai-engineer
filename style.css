@@ -1,4 +1,4 @@
-/* style.css - Vereinfachte Version */
+/* style.css - Updated Version */
 
 /* --- Globale Stile & Variablen --- */
 :root {
@@ -10,9 +10,11 @@
   --border-color: #dee2e6;
   --heading-font: 'Poppins', sans-serif;
   --body-font: 'Lato', sans-serif;
+  --card-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  --card-shadow-hover: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Import Google Fonts (Beispiel) */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700&display=swap');
 
 * {
@@ -24,7 +26,6 @@
 html {
  scroll-behavior: smooth;
 }
-
 
 body {
   font-family: var(--body-font);
@@ -65,9 +66,8 @@ ul {
   margin-bottom: 1em;
 }
 
-
 /* --- Layout Container --- */
-.profile-header, .profile-main, .profile-footer {
+.profile-header, .profile-main, .profile-footer, .reviews-section {
   width: 100%;
   max-width: 900px; /* Maximale Breite */
   margin-left: auto;
@@ -115,7 +115,6 @@ ul {
 }
 .about-section { margin-top: 0; padding-top: 0; }
 
-
 .about-section p:first-of-type {
   font-size: 1.1em;
 }
@@ -124,7 +123,6 @@ ul {
   font-size: 0.9em;
   color: #6c757d;
 }
-
 
 /* --- Connect / Social Links --- */
 .connect-section {
@@ -196,6 +194,85 @@ details p {
   font-size: 0.95em;
 }
 
+/* --- NEU: Technical Insights / Reviews Section --- */
+.reviews-section {
+    /* HIER IST DER FIX FÜR DEN ABSTAND: 4rem (ca 64px) nach oben */
+    margin-top: 4rem; 
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color); /* Optionale Trennlinie für mehr Struktur */
+}
+
+.reviews-section h3 {
+    text-align: center;
+    border-bottom: none; /* Entfernt die Linie unter der Überschrift, da zentriert */
+    margin-bottom: 1.5rem;
+}
+
+/* Grid System für Karten */
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+/* Karten Styling */
+.review-card {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--card-shadow-hover);
+    border-color: var(--secondary-color);
+}
+
+.review-card h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.review-meta {
+    font-size: 0.85rem;
+    color: #6c757d; /* Matches your grey variables */
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.review-excerpt {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+/* Button für Amazon Link */
+.profile-btn {
+    background-color: #232f3e; /* Amazon Dark Blue */
+    color: #ffffff !important; /* Force White Text */
+    padding: 12px 24px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    display: inline-block; 
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 2.5rem;
+}
+
+.profile-btn:hover {
+    background-color: #37475a; /* Lighter Amazon Blue */
+    text-decoration: none;
+    transform: scale(1.02);
+}
+
 /* --- Footer --- */
 .profile-footer {
   text-align: center;
@@ -212,7 +289,7 @@ details p {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.3rem; }
   .profile-picture { width: 120px; height: 120px; }
-  .profile-header, .profile-main, .profile-footer { padding: 15px; }
+  .profile-header, .profile-main, .profile-footer, .reviews-section { padding: 15px; }
 }
 
 @media (max-width: 480px) {
