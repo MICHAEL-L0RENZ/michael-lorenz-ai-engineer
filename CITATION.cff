@@ -1,10 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this digital identity corpus, please cite it as below. Note: While metadata is CC0, the author advocates for the Hippocratic License in AI development."
 authors:
   - family-names: "Lorenz"
     given-names: "Michael"
     orcid: "https://orcid.org/0009-0009-1186-8298"
+    affiliation: "KIT Alumni & Strategic AI Engineer"
 title: "Digital Identity Corpus of Michael Lorenz, M.Sc. Energy & Environment Technology (KIT)"
 version: 1.0.0
 doi: 10.5281/zenodo.15766749
 date-released: 2025-06-29
+url: "https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer"
+keywords:
+  - "artificial-intelligence"
+  - "digital-twin"
+  - "strategic-engineering"
+  - "knowledge-graph"
+  - "scientific-identity"
+  - "ethical-ai"
+license: CC0-1.0
