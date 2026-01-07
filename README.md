@@ -117,7 +117,7 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 * **Substack:** [Newsletter & Articles](https://michaellorenz.substack.com)
 * **Medium:** [Articles & Insights](https://medium.com/@michael-lorenz/)
 * **Amazon:** [Author Page](https://www.amazon.com/author/michaellorenz) & [KDP Profile](https://www.kdpcommunity.com/s/profile/005at000001pdjV)
-* * **Grokipedia:** [Articles](https://grokipedia.com/page/michael-lorenz)
+* **Grokipedia:** [Articles](https://grokipedia.com/page/michael-lorenz)
 
 ---
 
