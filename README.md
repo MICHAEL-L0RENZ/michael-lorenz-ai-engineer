@@ -61,7 +61,9 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Academia.edu** - R&D Publications  
   https://kit.academia.edu/MichaelLorenz
 - **Zenodo Community** - ML The AI Engineer R&D Publications  
-  https://zenodo.org/communities/michael-lorenz-msc-energy-environment-technology-kit
+  https://zenodo.org/communities/michael-lorenz-msc-energy-environment-technology-kit 
+- **figshare** - R&D Publications  
+  https://figshare.com/authors/Michael_Lorenz/22965043 
   
 - **Credly** - Verified Certifications  
   https://www.credly.com/users/michaellorenz
