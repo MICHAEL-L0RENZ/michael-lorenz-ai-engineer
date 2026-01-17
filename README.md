@@ -34,6 +34,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.kaggle.com/mltheaiengineer
 - **Hugging Face** – AI Models, Datasets & Spaces  
   https://huggingface.co/ML-The-AI-Engineer
+- **Lovable** – Vibe Coding, Shipping Fast, Building World Class Excellence
+  https://lovable.dev/michaellorenz
 - **Google Developer Profile** - Cloud, AI, IoT & Public Code  
   https://developers.google.com/profile/u/michaellorenz
 - **Google Cloud Skills Boost** - Hands-on Labs & Skill Badges  
@@ -140,6 +142,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://chatgpt.com/share/67c0d169-e70c-8003-81ce-0ee6510305b0
 - **HuggingFace GPT Version** - Chat Assistant Instance  
   https://hf.co/chat/assistant/67c09fe4b28867ad6f7b9d69
+- **Lovable Battery Lab** – Expand Battery Knowledge Interactively  
+  https://lovable.dev/products/battery-lab
 - **Perplexity AI** - Instant Answers & Search  
   https://www.perplexity.ai/search/michael-lorenz-perplexity-ai-QiOyThlFS3208dSt9UnvZg
 
