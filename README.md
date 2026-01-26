@@ -1,4 +1,5 @@
 # Michael Lorenz, M.Sc. Energy & Environment Technology (KIT) - AI Engineer, Cognitive Technologist & Strategic Innovator
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer)
 
 Welcome to the official GitHub profile of **Michael Lorenz**, M.Sc. Energy & Environment Technology (KIT), an engineer and technologist with a strong focus on artificial intelligence, battery technology, digital twin infrastructure, and cognitive system design.
 
@@ -109,11 +110,12 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
     * **DOI:** [10.5281/zenodo.15766749](https://doi.org/10.5281/zenodo.15766749)
     * **Zenodo Record:** [records/15766749](https://zenodo.org/records/15766749)
     * **OpenAIRE:** [Indexed Record](https://explore.openaire.eu/search/software?pid=10.5281%2Fzenodo.15766749)
-    * **Software Heritage:** [Archived Source](https://archive.softwareheritage.org/browse/directory/0e363642f94ef68bf41be6ee05a1cb1957a9bbb7/?origin_url=https://doi.org/10.5281/zenodo.15766749)
+    * **Software Heritage:** [Archived Source](https://archive.softwareheritage.org/browse/directory/0e363642f94ef68bf41be6ee05a1cb1957a9bbb7/?path=MICHAEL-L0RENZ-michael-lorenz-ai-engineer-d901bf3)
 
 * **Digital Identity Corpus (v1.1.1)**
 * This latest repository, published as a citable dataset to ensure long-term preservation and discoverability.
 * **GitHub:** [10.5281/zenodo.15766749](https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer/tree/v1.1.1)
+*   * **Software Heritage:** [Archived Source](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer)
 
 * **HuggingFace Dataset on AI Engineering**
     * **Zenodo Record:** [records/15727261](https://zenodo.org/records/15727261)
