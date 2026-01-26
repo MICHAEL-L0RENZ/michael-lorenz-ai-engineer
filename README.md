@@ -34,8 +34,8 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
   https://www.kaggle.com/mltheaiengineer
 - **Hugging Face** – AI Models, Datasets & Spaces  
   https://huggingface.co/ML-The-AI-Engineer
-- **Lovable** – Vibe Coding, Shipping Fast, Building World Class Excellence
-  https://lovable.dev/michaellorenz
+- **Lovable** – Vibe Coding, Shipping Fast, Building World Class Excellence  
+  https://lovable.dev/@michaellorenz
 - **Google Developer Profile** - Cloud, AI, IoT & Public Code  
   https://developers.google.com/profile/u/michaellorenz
 - **Google Cloud Skills Boost** - Hands-on Labs & Skill Badges  
@@ -61,9 +61,9 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Semantic Scholar** - R&D Publications  
   https://www.semanticscholar.org/author/Michael-Lorenz/2308043299/
 - **Academia.edu** - R&D Publications  
-  https://kit.academia.edu/MichaelLorenz
-- **Zenodo Community** - ML The AI Engineer R&D Publications  
-  https://zenodo.org/communities/michael-lorenz-msc-energy-environment-technology-kit 
+  https://kit.academia.edu/MichaelLorenz  
+- **Open Science Framework (OSF)** - R&D Publications and Scientific Data Management   
+  https://osf.io/wnxq9/
 - **figshare** - R&D Publications  
   https://figshare.com/authors/Michael_Lorenz/22965043 
   
@@ -104,17 +104,25 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 ### Scientific Publications & Citable Datasets
 
 * **Digital Identity Corpus (v1.0.0)**
-    * This repository, published as a citable dataset to ensure long-term preservation and discoverability.
+    * This initial repository, published as a citable dataset to ensure long-term preservation and discoverability.
+    * **GitHub:** [10.5281/zenodo.15766749](https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer/tree/v1.0.0)
     * **DOI:** [10.5281/zenodo.15766749](https://doi.org/10.5281/zenodo.15766749)
     * **Zenodo Record:** [records/15766749](https://zenodo.org/records/15766749)
     * **OpenAIRE:** [Indexed Record](https://explore.openaire.eu/search/software?pid=10.5281%2Fzenodo.15766749)
     * **Software Heritage:** [Archived Source](https://archive.softwareheritage.org/browse/directory/0e363642f94ef68bf41be6ee05a1cb1957a9bbb7/?origin_url=https://doi.org/10.5281/zenodo.15766749)
 
+* **Digital Identity Corpus (v1.1.1)**
+* This latest repository, published as a citable dataset to ensure long-term preservation and discoverability.
+* **GitHub:** [10.5281/zenodo.15766749](https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer/tree/v1.1.1)
+
 * **HuggingFace Dataset on AI Engineering**
     * **Zenodo Record:** [records/15727261](https://zenodo.org/records/15727261)
 
 * **Paper: Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance**
-    * **View on:** [KIT-Bibliothek](https://publikationen.bibliothek.kit.edu/230093432/6211433) | [IAEA-INIS](https://inis.iaea.org/records/3dhkc-65y07) | [ETDEWEB](https://www.osti.gov/etdeweb/biblio/22268322)
+    * **View on:** [KIT-Bibliothek](https://publikationen.bibliothek.kit.edu/230093432/6211433) | [KIT-Bibliothek DOI](https://publikationen.bibliothek.kit.edu/230093432) | [IAEA-INIS](https://inis.iaea.org/records/3dhkc-65y07) | [ETDEWEB](https://www.osti.gov/etdeweb/biblio/22268322)
+
+* **Presentation: Fabrication and characterization of aluminum-containing ferritic ODS alloys for improved corrosion resistance**
+    * **View on:** [IAEA](https://inis.iaea.org/records/0q4ky-n7287)
 
 ### Articles & Author Profiles
 
