@@ -6,9 +6,9 @@ authors:
     orcid: "https://orcid.org/0009-0009-1186-8298"
     affiliation: "KIT Alumni & Strategic AI Engineer"
 title: "Digital Identity Corpus of Michael Lorenz, M.Sc. Energy & Environment Technology (KIT)"
-version: 1.0.0
-doi: 10.5281/zenodo.15766749
-date-released: 2025-06-29
+version: 1.2.0
+doi: 10.6084/m9.figshare.31151740
+date-released: 2026-01-27
 url: "https://github.com/MICHAEL-L0RENZ/michael-lorenz-ai-engineer"
 keywords:
   - "artificial-intelligence"
@@ -17,4 +17,5 @@ keywords:
   - "knowledge-graph"
   - "scientific-identity"
   - "ethical-ai"
+  - "agentic-workflows"
 license: CC0-1.0
