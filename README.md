@@ -66,8 +66,9 @@ I'm especially passionate about developing **AI-powered frameworks** that integr
 - **Open Science Framework (OSF)** - R&D Publications and Scientific Data Management   
   https://osf.io/wnxq9/
 - **figshare** - R&D Publications  
-  https://figshare.com/authors/Michael_Lorenz/22965043 
-  
+  https://figshare.com/authors/Michael_Lorenz/22965043
+- **Harvard Dataverse** - R&D Publications  
+  https://dataverse.harvard.edu/dataverse/michaellorenz
 - **Credly** - Verified Certifications  
   https://www.credly.com/users/michaellorenz
 
